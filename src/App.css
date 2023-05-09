@@ -4,8 +4,11 @@
 
 body {
   margin: 0;
-  font-family: 'Verdana';
-  color: #222
+  font-family: 'Source Code Pro', monospace;
+  color: #222;
+  display: grid;
+  place-content: center;
+  text-align: center;
 }
 
 nav {
@@ -15,12 +18,11 @@ nav {
   display: flex;
   justify-content: center;
   gap: 2.5rem;
-  padding: 0 2.5rem;
-  margin-top: 1.5rem;
+  margin-top: 2.5rem;
 }
 
 nav .site-title {
-  font-size: 2.1rem;
+  font-size: 2rem;
   font-weight: bold;
   margin-right: auto;
 }
@@ -31,13 +33,75 @@ nav a {
   height: 100%;
   display: flex;
   align-items: center;
-  padding: .25rem;
 }
 
 nav .active {
-  color: #bbb;
+  color: #b64ace;
 }
 
 nav a:hover {
   color: #bbb
+}
+
+h1 {
+  font-size: 6.66rem;
+  position: relative;
+}
+
+h1::before,
+h1::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+h1::before {
+  background: white;
+  animation: typewriter 3s steps(14) 500ms forwards;
+}
+
+h1::after {
+  width: 0.1em;
+  background: #b64ace;
+  animation: 
+    typewriter 3s steps(14) 500ms forwards,
+    blink 750ms steps(14) infinite;
+}
+
+h3 {
+  font-size: 1.5rem;
+  opacity: 0;
+  transform: translateY(3rem);
+  animation: fade 2s 3s forwards;
+}
+
+@keyframes typewriter {
+  to {
+    left: 100%;
+  }
+}
+
+@keyframes blink {
+  to {
+    background: transparent;
+  }
+}
+
+@keyframes fade {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.highlight {
+  color: #b64ace;
+}
+
+div .home {
+  margin-top: 12rem;
+  text-align: center;
 }
