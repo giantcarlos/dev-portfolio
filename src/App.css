@@ -60,14 +60,14 @@ h1::after {
 
 h1::before {
   background: white;
-  animation: typewriter 3s steps(14) 500ms forwards;
+  animation: typewriter 2.5s steps(14) 500ms forwards;
 }
 
 h1::after {
   width: 0.1em;
   background: #b64ace;
   animation: 
-    typewriter 3s steps(14) 500ms forwards,
+    typewriter 2.5s steps(14) 500ms forwards,
     blink 750ms steps(14) infinite;
 }
 
@@ -75,7 +75,7 @@ h3 {
   font-size: 1.5rem;
   opacity: 0;
   transform: translateY(3rem);
-  animation: fade 2s 3s forwards;
+  animation: fade 2s 2.5s forwards;
 }
 
 @keyframes typewriter {
@@ -131,4 +131,11 @@ div .bio {
   float: left;
   width: 40%;
   margin: 1.25rem;
+}
+
+.cv {
+  margin-top: 2.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 820px;
 }
