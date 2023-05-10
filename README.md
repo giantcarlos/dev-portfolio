@@ -1,4 +1,4 @@
-# **Web Develooper Portfolio**
+# **Web Developer Portfolio**
 
 
 ### **Tech**
