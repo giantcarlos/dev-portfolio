@@ -162,3 +162,45 @@ p {
   width: 70px;
   padding: .5rem;
 }
+
+.container {
+  margin-top: 5rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-bottom: 3rem;
+  display: grid;
+  /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+  gap: 2rem;
+  align-items: center;
+}
+
+.card {
+  max-width: 1000px;
+  padding: 1rem;
+  text-align: left;
+  background: white;
+  border-radius: .25rem;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 2);
+}
+
+.card-image {
+  overflow: hidden;
+}
+
+.card-image > img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: center;
+  transition: 200ms transform ease-in-out;
+}
+
+.card:hover > .card-image > img {
+  transform: scale(1.025);
+}
+
+.card-details {
+  font-size: 1rem;
+  margin-bottom: .2rem;
+}
