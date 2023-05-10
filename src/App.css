@@ -75,7 +75,7 @@ h3 {
   font-size: 1.5rem;
   opacity: 0;
   transform: translateY(3rem);
-  animation: fade 2s 2.5s forwards;
+  animation: fadeUp 2s 2.5s forwards;
 }
 
 @keyframes typewriter {
@@ -90,7 +90,7 @@ h3 {
   }
 }
 
-@keyframes fade {
+@keyframes fadeUp {
   to {
     opacity: 1;
     transform: translateY(0);
@@ -114,17 +114,17 @@ p {
   color: #b64ace;
 }
 
-div .home {
+.home {
   margin-top: 12rem;
   text-align: center;
 }
 
-div .bio {
+.bio {
   margin-top: 5rem;
   position: absolute;
   text-align: left;
   width: 60%;
-  animation: fadeIn .5s;
+  animation: fadeIn .75s;
 }
 
 .me {
@@ -138,4 +138,27 @@ div .bio {
   margin-left: auto;
   margin-right: auto;
   width: 820px;
+}
+
+.contact-text {
+  margin-top: 11rem;
+  animation: fadeIn .75s;
+}
+
+.icons {
+  opacity: 0;
+  transform: translateY(3rem);
+  animation: fadeUp 1s forwards;
+}
+
+.logo {
+  margin-top: 7.5rem;
+  width: 60px;
+  padding: .5rem;
+}
+
+.logo2 {
+  margin-top: 7.5rem;
+  width: 70px;
+  padding: .5rem;
 }
