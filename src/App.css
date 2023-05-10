@@ -15,7 +15,7 @@ nav {
   font-size: 1.1rem;
   background-color: #fff;
   color: #111;
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   gap: 2.5rem;
   margin-top: 2.5rem;
@@ -97,6 +97,19 @@ h3 {
   }
 }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+p {
+  font-size: 1rem;
+}
+
 .highlight {
   color: #b64ace;
 }
@@ -104,4 +117,18 @@ h3 {
 div .home {
   margin-top: 12rem;
   text-align: center;
+}
+
+div .bio {
+  margin-top: 5rem;
+  position: absolute;
+  text-align: left;
+  width: 60%;
+  animation: fadeIn .5s;
+}
+
+.me {
+  float: left;
+  width: 40%;
+  margin: 1.25rem;
 }
