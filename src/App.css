@@ -146,7 +146,7 @@ p {
 .cv {
   margin-top: 2.5rem;
   margin-bottom: 3.5rem;
-  animation: fadeIn .75s;
+  animation: fadeIn .5s;
 }
 
 .cv-image {
@@ -185,7 +185,7 @@ p {
   display: grid;
   gap: 2rem;
   align-items: center;
-  animation: fadeIn .75s;
+  animation: fadeIn .5s;
 }
 
 .card {
