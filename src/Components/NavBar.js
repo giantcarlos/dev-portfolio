@@ -6,7 +6,7 @@ function NavBar() {
     <nav>
       <div className="site-title">GianTCarlos.<span className="highlight">_</span></div>
       <NavLink to="/">// home   </NavLink>
-      <NavLink to="/about">// about   </NavLink>
+      <NavLink to="/bio">// bio   </NavLink>
       <NavLink to="/projects">// projects   </NavLink>
       <NavLink to="/cv">// cv   </NavLink>
       <NavLink to="/contact">// contact   </NavLink>
