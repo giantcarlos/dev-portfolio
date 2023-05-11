@@ -4,12 +4,13 @@
 
 body {
   margin: 0;
-  padding: 0;
+  padding: 2rem;
   font-family: 'Source Code Pro', monospace;
   color: #222;
   display: grid;
   place-content: center;
   text-align: center;
+  line-height: 1.5;
 }
 
 nav {
@@ -17,23 +18,18 @@ nav {
   background-color: #fff;
   color: #111;
   display: inline-flex;
-  justify-content: center;
   gap: 2.5rem;
-  margin-top: 2.5rem;
+  margin-top: .5rem;
 }
 
 nav .site-title {
   font-size: 2rem;
   font-weight: bold;
-  margin-right: auto;
 }
 
 nav a {
   color: inherit;
   text-decoration: none;
-  height: 100%;
-  display: flex;
-  align-items: center;
 }
 
 nav .active {
@@ -131,13 +127,13 @@ p {
   margin-top: 5rem;
   position: absolute;
   text-align: left;
-  width: 60%;
+  max-width: 60%;
   animation: fadeIn .75s;
 }
 
 .me {
   float: left;
-  width: 40%;
+  max-width: 40%;
   margin: 1.25rem;
   opacity: 0;
   transform: translateX(-3rem);
@@ -151,6 +147,8 @@ p {
 }
 
 .cv-image {
+  margin-left: auto;
+  margin-right: auto;
   width: 65%;
   filter: grayscale(100%);
 }
@@ -238,4 +236,19 @@ p {
   background: #ddd;
   color: #111;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 767px) {
+  .bio {
+    max-width: 100%;
+  }
+  p {
+    font-size: 1.25rem;
+  }
+  h1 {
+    font-size: 3.33rem;
+  }
+  h3 {
+    font-size: 1.1rem;
+  }
 }
