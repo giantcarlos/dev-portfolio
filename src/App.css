@@ -127,8 +127,9 @@ p {
   margin-top: 5rem;
   position: absolute;
   text-align: left;
-  max-width: 60%;
+  max-width: 900px;
   animation: fadeIn .75s;
+  padding: 1rem;
 }
 
 .me {
@@ -242,8 +243,15 @@ p {
   .bio {
     max-width: 100%;
   }
-  p {
-    font-size: 1.25rem;
+  .card-title {
+    font-size: 1.3;
+  }
+  p, .card-details {
+    font-size: 1.2rem;
+  }
+  .button {
+    width: 30%;
+    padding: .6rem 2rem;
   }
   h1 {
     font-size: 3.33rem;
