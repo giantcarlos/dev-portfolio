@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  padding: 2rem;
+  padding: 1rem;
   font-family: 'Source Code Pro', monospace;
   color: #222;
   display: grid;
@@ -20,7 +20,7 @@ nav {
   color: #111;
   display: inline-flex;
   gap: 2.5rem;
-  margin-top: .5rem;
+  margin-top: 1.5rem;
 }
 
 nav .site-title {
@@ -266,7 +266,7 @@ p {
     font-size: 2rem;
   }
   h3 {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
   .cv-image {
     width: 100%;
