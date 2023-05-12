@@ -23,7 +23,7 @@ nav {
   margin-top: 1.5rem;
 }
 
-nav .site-title {
+.site-title {
   font-size: 2rem;
   font-weight: bold;
 }
@@ -248,6 +248,9 @@ p {
 @media only screen and (max-width: 767px) {
   body {
     display: block;
+  }
+  .site-title {
+    font-size: 1.7;
   }
   .bio {
     max-width: 100%;
