@@ -58,14 +58,14 @@ h1::after {
 
 h1::before {
   background: white;
-  animation: typewriter 2.5s steps(14) 500ms forwards;
+  animation: typewriter 2.5s steps(14) forwards;
 }
 
 h1::after {
   width: 0.1em;
   background: #b64ace;
   animation: 
-    typewriter 2.5s steps(14) 500ms forwards,
+    typewriter 2.5s steps(14) forwards,
     blink 750ms steps(14) infinite;
 }
 
@@ -73,7 +73,7 @@ h3 {
   font-size: 1.5rem;
   opacity: 0;
   transform: translateY(3rem);
-  animation: fadeUp 2s 2.5s forwards;
+  animation: fadeUp 2s 2s forwards;
 }
 
 @keyframes typewriter {
