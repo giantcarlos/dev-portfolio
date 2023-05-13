@@ -276,6 +276,7 @@ p {
   }
   .hamburger {
     display: block;
+    z-index: 4;
   }
   nav {
     padding: 0;
@@ -302,7 +303,7 @@ p {
     left: 0;
     position: absolute;
     background-color: rgb(33, 33, 33);
-    width: 300px;
+    width: 260px;
     height: 100%;
     display: flex;
     justify-content: center;
