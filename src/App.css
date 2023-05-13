@@ -286,7 +286,7 @@ p {
     left: -200%;
     position: absolute;
     background-color: rgb(33, 33, 33);
-    width: 300px;
+    width: 230px;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -303,7 +303,7 @@ p {
     left: 0;
     position: absolute;
     background-color: rgb(33, 33, 33);
-    width: 240px;
+    width: 230px;
     height: 100%;
     display: flex;
     justify-content: center;
