@@ -18,11 +18,11 @@ function NavBar() {
     <nav>
       <div className="site-title">gtc.<span className="highlight">_</span></div>
       <div className={active} onClick={navOff}>
-        <NavLink to="/">// home   </NavLink>
-        <NavLink to="/bio">// bio   </NavLink>
-        <NavLink to="/projects">// projects   </NavLink>
-        <NavLink to="/cv">// cv   </NavLink>
-        <NavLink to="/contact">// contact   </NavLink>
+        <NavLink className="nav-button" to="/">// home</NavLink>
+        <NavLink className="nav-button" to="/bio">// bio</NavLink>
+        <NavLink className="nav-button" to="/projects">// projects</NavLink>
+        <NavLink className="nav-button" to="/cv">// cv</NavLink>
+        <NavLink className="nav-button" to="/contact">// contact</NavLink>
       </div>
       <div className="hamburger" onClick={navToggle}>
         <Hamburger toggled={isOpen} toggle={setOpen}/>

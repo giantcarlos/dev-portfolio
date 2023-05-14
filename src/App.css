@@ -28,6 +28,10 @@ nav {
   font-weight: bold;
 }
 
+.nav-button {
+  margin-right: 1.75rem;
+}
+
 nav a {
   color: inherit;
   text-decoration: none;
