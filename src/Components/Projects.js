@@ -10,7 +10,7 @@ function Projects() {
             </div>
             <div className="card-title">Post-Records</div>
             <div className="card-details">Online retail storefront for a fictional record store specializing in rare and out of print post-punk records.</div>
-            <div className="card-details">● Developed a Javascript/React front-end application with a mock JSON API back-end.</div>
+            <div className="card-details">● Developed a JavaScript/React front-end application with a mock JSON API back-end.</div>
             <div className="card-details">● Designed visually appealing layouts, cards, and buttons with custom CSS styling.</div>
             <div className="card-details">● Implemented UI/UX design principles for a seamless customer online retail experience.</div>
             <Link to={'https://github.com/giantcarlos/post-records-storefront'} target="_blank">
@@ -26,7 +26,7 @@ function Projects() {
             </div>
             <div className="card-title">Miniature Tracker</div>
             <div className="card-details">Collection application to assist Dungeons and Dragons/tabletop game managers in managing miniature collections.</div>
-            <div className="card-details">● Developed a Javascript/React front-end and Ruby/Sinatra back-end application.</div>
+            <div className="card-details">● Developed a JavaScript/React front-end and Ruby/Sinatra back-end application.</div>
             <div className="card-details">● Managed front-end state using the useContext hook.</div>
             <div className="card-details">● Implemented client-side validations using React JS.</div>
             <div className="card-details">● Modeled custom database schema and REST API with Active Record and Ruby.</div>
@@ -43,7 +43,7 @@ function Projects() {
             </div>
             <div className="card-title">Scotcher</div>
             <div className="card-details">Journal application for Scotch enthusiasts to track their taste experiences.</div>
-            <div className="card-details">● Developed a Javascript/React/Redux front-end and Ruby/Rails back-end application.</div>
+            <div className="card-details">● Developed a JavaScript/React/Redux front-end and Ruby/Rails back-end application.</div>
             <div className="card-details">● Utilized Redux Toolkit for asynchronous data retrieval and front-end state management.</div>
             <div className="card-details">● Integrated server-side validations using Rails and Active Record.</div>
             <div className="card-details">● Implemented user authentication, authorization, and password encryption with BCrypt.</div>
