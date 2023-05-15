@@ -194,6 +194,11 @@ p {
   animation: fadeIn .5s;
 }
 
+.text-container {
+  margin-left: .5rem;
+  margin-right: .5rem;
+}
+
 .card {
   max-width: 800px;
   margin-left: auto;
