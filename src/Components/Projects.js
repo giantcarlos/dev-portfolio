@@ -53,6 +53,9 @@ function Projects() {
               <div className="card-details">● Integrated server-side validations using Rails and Active Record.</div>
               <div className="card-details">● Implemented user authentication, authorization, and password encryption with BCrypt.</div>
             </div>
+            <Link to={'https://scotcher.onrender.com/'} target="_blank">
+              <button className="button">Live Link</button>
+            </Link>
             <Link to={'https://github.com/giantcarlos/scotcher'} target="_blank">
               <button className="button">Github</button>
             </Link>
