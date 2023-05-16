@@ -15,6 +15,9 @@ function Projects() {
               <div className="card-details">● Designed visually appealing layouts, cards, and buttons with custom CSS styling.</div>
               <div className="card-details">● Implemented UI/UX design principles for a seamless customer online retail experience.</div>
             </div>
+            <Link to={'https://post-records-client.onrender.com/'} target="_blank">
+              <button className="button">Live Link</button>
+            </Link>
             <Link to={'https://github.com/giantcarlos/post-records-storefront'} target="_blank">
               <button className="button">Github</button>
             </Link>
