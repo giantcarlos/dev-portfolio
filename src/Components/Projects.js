@@ -10,7 +10,7 @@ function Projects() {
             </div>
             <div className='text-container'>
               <div className="card-title">Post-Records</div>
-              <div className="card-details">Online retail storefront for a specialty record store that deals with rare and out of print post-punk records.</div>
+              <div className="card-details">Online retail storefront for a specialty record store dealing with rare and out of print post-punk records.</div>
               <div className="card-details">● Developed a JavaScript/React front-end application with a mock JSON API back-end.</div>
               <div className="card-details">● Designed visually appealing layouts, cards, and buttons with custom CSS styling.</div>
               <div className="card-details">● Implemented UI/UX design principles for a seamless customer online retail experience.</div>
