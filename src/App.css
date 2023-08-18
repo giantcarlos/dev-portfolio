@@ -268,8 +268,11 @@ p {
     font-size: 1.1rem;
   }
   .button {
+    border: 1.5px solid #303030;
     width: 45%;
+    font-family: inherit;
     padding: .6rem 2rem;
+    color: #222;
   }
   h1 {
     font-size: 2rem;
@@ -326,5 +329,17 @@ p {
     z-index: 3;
     transition: 0.5s ease-in-out;
     transform: translateX(0);
+  }
+}
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+  button {
+    border: 1.5px solid #303030;
+    width: 45%;
+    font-family: inherit;
+    padding: .6rem 2rem;
+    color: #222;
   }
 }
