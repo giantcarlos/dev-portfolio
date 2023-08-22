@@ -11,9 +11,9 @@ function Projects() {
             <div className='text-container'>
               <div className="card-title">Dentonpalooza</div>
               <div className="card-details">Freelance web development project for the Dentonpalooza festival in Denton, TX.</div>
-              <div className="card-details">● Utilized React and CSS to build an engaging, informational website, elevating the user experience.</div>
-              <div className="card-details">● Translated the client's artistic direction into a captivating UI/UX, while seamlessly incorporating sponsor identities.</div>
-              <div className="card-details">● Acquired firsthand exposure to professional and non-profit development dynamics, broadening my skill set.</div>
+              <div className="card-details">● Utilized React and CSS to build an engaging, informational website.</div>
+              <div className="card-details">● Translated artistic direction into UI/UX, while incorporating sponsor identities.</div>
+              <div className="card-details">● Acquired firsthand exposure to professional and non-profit development dynamics.</div>
             </div>
             <Link to={'https://giantcarlos.github.io/dentonpalooza23/'} target="_blank">
               <button className="button">Live Link</button>
@@ -28,7 +28,7 @@ function Projects() {
             </div>
             <div className='text-container'>
               <div className="card-title">Miniature Tracker</div>
-              <div className="card-details">Collection application to assist Dungeons and Dragons/tabletop game managers in managing miniature collections.</div>
+              <div className="card-details">Collection application to assist D&D/tabletop dungeon masters in managing miniature collections.</div>
               <div className="card-details">● Developed a JavaScript/React front-end and Ruby/Sinatra back-end application.</div>
               <div className="card-details">● Managed front-end state using the useContext hook.</div>
               <div className="card-details">● Implemented client-side validations using React JS.</div>
