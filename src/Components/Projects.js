@@ -34,11 +34,11 @@ function Projects() {
               <div className="card-details">● Implemented client-side validations using React JS.</div>
               <div className="card-details">● Modeled custom database schema and REST API with Active Record and Ruby.</div>
             </div>
-            <Link to={'https://github.com/giantcarlos/mini-tracker-client'} target="_blank">
-              <button className="button">Github</button>
-            </Link>
             <Link to={'https://www.youtube.com/watch?v=6RkCSsI5L7A'} target="_blank">
               <button className="button">Demo Video</button>
+            </Link>
+            <Link to={'https://github.com/giantcarlos/mini-tracker-client'} target="_blank">
+              <button className="button">Github</button>
             </Link>
         </div>
         <div className="card">
@@ -53,14 +53,11 @@ function Projects() {
               <div className="card-details">● Integrated server-side validations using Rails and Active Record.</div>
               <div className="card-details">● Implemented user authentication, authorization, and password encryption with BCrypt.</div>
             </div>
-            <Link to={'https://scotcher.onrender.com/'} target="_blank">
-              <button className="button">Live Link</button>
+            <Link to={'https://www.youtube.com/watch?v=uLI89WSmleM'} target="_blank">
+              <button className="button">Demo Video</button>
             </Link>
             <Link to={'https://github.com/giantcarlos/scotcher'} target="_blank">
               <button className="button">Github</button>
-            </Link>
-            <Link to={'https://www.youtube.com/watch?v=uLI89WSmleM'} target="_blank">
-              <button className="button">Demo Video</button>
             </Link>
         </div>
         <div className="card">
@@ -74,14 +71,11 @@ function Projects() {
               <div className="card-details">● Designed visually appealing layouts, cards, and buttons with custom CSS styling.</div>
               <div className="card-details">● Implemented UI/UX design principles for a seamless customer online retail experience.</div>
             </div>
-            <Link to={'https://post-records-client.onrender.com/'} target="_blank">
-              <button className="button">Live Link</button>
+            <Link to={'https://www.youtube.com/watch?v=D04XhApmUg8'} target="_blank">
+              <button className="button">Demo Video</button>
             </Link>
             <Link to={'https://github.com/giantcarlos/post-records-storefront'} target="_blank">
               <button className="button">Github</button>
-            </Link>
-            <Link to={'https://www.youtube.com/watch?v=D04XhApmUg8'} target="_blank">
-              <button className="button">Demo Video</button>
             </Link>
         </div>
     </div>
