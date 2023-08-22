@@ -49,9 +49,9 @@ function Projects() {
               <div className="card-title">Scotcher</div>
               <div className="card-details">Journal application for Scotch enthusiasts to track their taste experiences.</div>
               <div className="card-details">● Developed a JavaScript/React/Redux front-end and Ruby/Rails back-end application.</div>
-              <div className="card-details">● Utilized Redux Toolkit for asynchronous data retrieval and front-end state management.</div>
               <div className="card-details">● Integrated server-side validations using Rails and Active Record.</div>
               <div className="card-details">● Implemented user authentication, authorization, and password encryption with BCrypt.</div>
+              <div className="card-details">● Utilized Redux Toolkit for asynchronous data retrieval and front-end state management.</div>
             </div>
             <Link to={'https://www.youtube.com/watch?v=uLI89WSmleM'} target="_blank">
               <button className="button">Demo Video</button>
