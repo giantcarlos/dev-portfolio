@@ -11,7 +11,7 @@ function Projects() {
             <div className='text-container'>
               <div className="card-title">Dentonpalooza</div>
               <div className="card-details">Freelance web development project for the Dentonpalooza festival in Denton, TX.</div>
-              <div className="card-details">● Leveraged React and CSS to construct an interactive, dynamic website, enhancing user experience.</div>
+              <div className="card-details">● Utilized React and CSS to build an engaging, informational website, elevating the user experience.</div>
               <div className="card-details">● Translated the client's artistic direction into a captivating UI/UX, while seamlessly incorporating sponsor identities.</div>
               <div className="card-details">● Acquired firsthand exposure to professional and non-profit development dynamics, broadening my skill set.</div>
             </div>
