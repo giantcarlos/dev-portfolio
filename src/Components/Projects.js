@@ -6,7 +6,7 @@ function Projects() {
     <div className='container'>
         <div className="card">
             <div className="card-image">
-                <img src={'https://i.imgur.com/a7dypvu.png'} alt="cover"/>
+                <img src={'https://i.imgur.com/ELlrren.png'} alt="cover"/>
             </div>
             <div className='text-container'>
               <div className="card-title">Dentonpalooza</div>
