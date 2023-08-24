@@ -14,6 +14,7 @@ function Projects() {
               <div className="card-details">● Utilized React and CSS to build an engaging, informational website.</div>
               <div className="card-details">● Translated artistic direction into UI/UX, while incorporating sponsor identities.</div>
               <div className="card-details">● Acquired firsthand exposure to professional and non-profit development dynamics.</div>
+              <div className="card-details">● Incorporated accessibility design tailored to users with visual impairments.</div>
             </div>
             <Link to={'https://giantcarlos.github.io/dentonpalooza23/'} target="_blank">
               <button className="button">Live Link</button>
