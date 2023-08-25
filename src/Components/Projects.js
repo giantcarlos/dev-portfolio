@@ -1,9 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Fade } from 'react-reveal';
 
 function Projects() {
   return (
     <div className='container'>
+      <Fade>
         <div className="card">
             <div className="card-image">
                 <img src={'https://i.imgur.com/ELlrren.png'} alt="cover"/>
@@ -79,6 +81,7 @@ function Projects() {
               <button className="button">Github</button>
             </Link>
         </div>
+        </Fade>
     </div>
   )
 }
