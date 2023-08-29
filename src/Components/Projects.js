@@ -8,7 +8,7 @@ function Projects() {
       <Fade>
         <div className="card">
             <div className="card-image">
-                <img src={'https://i.imgur.com/ELlrren.png'} alt="cover"/>
+                <img src={'https://i.imgur.com/zzX037x.png'} alt="cover"/>
             </div>
             <div className='text-container'>
               <div className="card-title">Dentonpalooza</div>
