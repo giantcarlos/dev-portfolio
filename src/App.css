@@ -5,7 +5,7 @@
 body {
   margin: 0;
   padding: 1rem;
-  font-family: 'Source Code Pro', monospace;
+  font-family: monospace, Courier, 'Courier New';
   color: #222;
   display: grid;
   place-content: center;
