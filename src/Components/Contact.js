@@ -11,13 +11,13 @@ function Contact() {
         </div>
         <div className='icons'>
             <Link to={'https://www.linkedin.com/in/gian-taino-carlos/'} target="_blank">
-                <img className="logo" src={'https://i.imgur.com/b3oeycO.jpg'} alt="Not found."/>
+                <img className="logo" src={'/linkedinicon.png'} alt="Not found."/>
             </Link>
             <Link to={'https://github.com/giantcarlos'} target="_blank">
-                <img className="logo2" src={'https://i.imgur.com/igZeNcB.png'} alt="Not found."/>  
+                <img className="logo2" src={'githubicon.png'} alt="Not found."/>  
             </Link>
             <Link to={'https://www.instagram.com/vestments/'} target="_blank">
-                <img className="logo" src={'https://i.imgur.com/YZ8COZ9.png'} alt="Not found."/>
+                <img className="logo" src={'instagramicon.png'} alt="Not found."/>
             </Link>
         </div>
     </div>
