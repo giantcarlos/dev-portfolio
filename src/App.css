@@ -143,7 +143,7 @@ p {
   max-width: 40%;
   margin-top: 1.25rem;
   margin-right: 1.25rem;
-  margin-bottom: .75rem;
+  margin-bottom: .5rem;
   opacity: 0;
   transform: translateX(-3rem);
   animation: fadeRight 1s forwards;
