@@ -141,7 +141,8 @@ p {
 .me {
   float: left;
   max-width: 40%;
-  margin: 1.25rem;
+  margin-top: 1.25rem;
+  margin-right: 1.25rem;
   opacity: 0;
   transform: translateX(-3rem);
   animation: fadeRight 1s forwards;
