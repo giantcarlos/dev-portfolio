@@ -266,8 +266,8 @@ p {
   .bio {
     max-width: 100%;
   }
-  p, .card-details {
-    font-size: 1.1rem;
+ .card-details {
+    font-size: 1rem;
   }
   .button {
     border: 1.5px solid #303030;
