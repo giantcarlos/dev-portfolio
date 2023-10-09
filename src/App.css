@@ -150,7 +150,6 @@ p {
 }
 
 .cv {
-  margin-top: 2.5rem;
   margin-bottom: 3.5rem;
   animation: fadeIn .75s;
 }
@@ -249,7 +248,21 @@ p {
   margin: .5rem;
 }
 
-.button:hover, .button:focus {
+.button2 {
+  width: 15%;
+  font-family: inherit;
+  padding: .3rem 2rem;
+  background-color: white;
+  margin: .5rem;
+}
+
+.pdf-button {
+  margin-top: 2rem;
+  display: block;
+  animation: fadeIn .75s;
+}
+
+.button:hover, .button:focus, .button2:hover, .button2:focus {
   background: #ddd;
   color: #111;
   cursor: pointer;
@@ -272,7 +285,7 @@ p {
   .card-details {
     font-size: 1rem;
   }
-  .button {
+  .button, .button2 {
     border: 1.5px solid #303030;
     width: 45%;
     font-family: inherit;
