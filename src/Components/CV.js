@@ -4,6 +4,9 @@ import ResumePdf from '../gianresume.pdf';
 function CV() {
   return (
     <>
+      <div className='cv'>
+        <img src={'/gianresume.png'} className='cv-image'/>
+      </div>
       <a
         className="pdf-button"
         href={ResumePdf}
@@ -13,9 +16,6 @@ function CV() {
       >
         <button className="button2">Download PDF</button>  
       </a>
-      <div className='cv'>
-        <img src={'/gianresume.png'} className='cv-image'/>
-      </div>
     </>
   )
 }

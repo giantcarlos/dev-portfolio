@@ -129,7 +129,7 @@ p {
 }
 
 .bio {
-  margin-top: 5rem;
+  margin-top: 3.5rem;
   margin-left: auto;
   margin-right: auto;
   text-align: left;
@@ -150,7 +150,7 @@ p {
 }
 
 .cv {
-  margin-bottom: 3.5rem;
+  margin-top: 1.625rem;
   animation: fadeIn .75s;
 }
 
@@ -249,7 +249,7 @@ p {
 }
 
 .button2 {
-  width: 15%;
+  width: 10.5rem;
   font-family: inherit;
   padding: .3rem 2rem;
   background-color: white;
@@ -257,7 +257,6 @@ p {
 }
 
 .pdf-button {
-  margin-top: 2rem;
   display: block;
   animation: fadeIn .75s;
 }
@@ -285,11 +284,19 @@ p {
   .card-details {
     font-size: 1rem;
   }
-  .button, .button2 {
-    border: 1.5px solid #303030;
-    width: 45%;
+  .button {
+    border: 1.375px solid #303030;
+    width: 10.5rem;
     font-family: inherit;
-    padding: .6rem 2rem;
+    padding: .5rem 2rem;
+    color: #222;
+  }
+  .button2 {
+    border: 1.375px solid #303030;
+    font-size: .6rem;
+    width: 9rem;
+    font-family: inherit;
+    padding: .4rem 2rem;
     color: #222;
   }
   h1 {
