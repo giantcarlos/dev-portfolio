@@ -132,6 +132,7 @@ p {
   margin-top: 3.5rem;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 1.5rem;
   text-align: left;
   max-width: 900px;
   animation: fadeIn .75s;
@@ -186,7 +187,7 @@ p {
 
 .container {
   margin-top: 4rem;
-  margin-bottom: 4rem;
+  margin-bottom: 5rem;
   margin-left: 1rem;
   margin-right: 1rem;
   display: grid;
@@ -257,6 +258,7 @@ p {
 }
 
 .pdf-button {
+  margin-bottom: 3rem;
   display: block;
   animation: fadeIn .75s;
 }
