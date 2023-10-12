@@ -187,7 +187,7 @@ p {
 
 .container {
   margin-top: 4rem;
-  margin-bottom: 5rem;
+  margin-bottom: 4.5rem;
   margin-left: 1rem;
   margin-right: 1rem;
   display: grid;
@@ -258,7 +258,7 @@ p {
 }
 
 .pdf-button {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   display: block;
   animation: fadeIn .75s;
 }
