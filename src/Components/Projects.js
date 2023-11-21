@@ -19,10 +19,10 @@ function Projects() {
               <div className="card-details">● Incorporated accessibility design tailored to users with visual impairments.</div>
             </div>
             <Link to={'https://giantcarlos.github.io/dentonpalooza23/'} target="_blank">
-              <button className="button">Event Link</button>
+              <button className="button">Archived Link</button>
             </Link>
             <Link to={'https://dentonpalooza.com/'} target="_blank">
-              <button className="button">Post Link</button>
+              <button className="button">Live Link</button>
             </Link>
             <Link to={'https://github.com/giantcarlos/dentonpalooza23'} target="_blank">
               <button className="button">Github</button>
