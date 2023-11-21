@@ -307,8 +307,8 @@ p {
   }
   h1 {
     font-size: 3rem;
-    margin-left: .75rem;
-    margin-right: .75rem;
+    /* margin-left: .75rem;
+    margin-right: .75rem; */
   }
   h3 {
     font-size: 1.1rem;
