@@ -278,7 +278,11 @@ p {
     display: block;
   }
   .bio {
+    margin-top: 1rem;
     max-width: 100%;
+  }
+  .container {
+    margin-top: 2.5rem;
   }
   .card-title {
     font-size: 1rem;
