@@ -177,12 +177,18 @@ p {
   margin-top: 7.5rem;
   width: 60px;
   padding: .5rem;
+  transition: 200ms transform ease-in-out;
 }
 
 .logo2 {
   margin-top: 7.5rem;
   width: 70px;
   padding: .5rem;
+  transition: 200ms transform ease-in-out;
+}
+
+.logo:hover, .logo2:hover {
+  transform: scale(1.125);
 }
 
 .container {
