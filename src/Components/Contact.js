@@ -5,9 +5,9 @@ function Contact() {
   return (
     <div>
         <div className='contact-text'>
-            <p>Available for select freelance opportunities.</p>
-            <p>Shoot me your project idea!</p><br />
-            <p>email: giantainocarlos@gmail.com</p>
+            <h2>Available for select freelance opportunities.</h2>
+            <h2>Shoot me your project idea!</h2><br />
+            <h2>email: giantainocarlos@gmail.com</h2>
         </div>
         <div className='icons'>
             <Link to={'https://www.linkedin.com/in/gian-taino-carlos/'} target="_blank">
