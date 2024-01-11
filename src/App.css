@@ -20,11 +20,11 @@ nav {
   color: #111;
   display: inline-flex;
   gap: 2.5rem;
-  margin-top: 1.5rem;
+  margin-top: 1.25rem;
 }
 
 .site-title {
-  font-size: 2rem;
+  font-size: 2.25rem;
   font-weight: bold;
 }
 
