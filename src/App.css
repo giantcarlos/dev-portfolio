@@ -188,7 +188,7 @@ p {
 }
 
 .logo:hover, .logo2:hover {
-  transform: scale(1.125);
+  transform: scale(1.175);
 }
 
 .container {
