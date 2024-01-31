@@ -5,7 +5,7 @@ function CV() {
   return (
     <>
       <div className='cv'>
-        <img src={'/gianresume.png'} className='cv-image'/>
+        <img src={'/gianresume.jpeg'} className='cv-image'/>
       </div>
       <a
         className="pdf-button"
