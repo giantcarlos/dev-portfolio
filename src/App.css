@@ -134,12 +134,12 @@ h2 {
 }
 
 .bio {
-  margin-top: 3.5rem;
+  margin-top: 4rem;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 1.5rem;
   text-align: left;
-  max-width: 900px;
+  max-width: 750px;
   animation: fadeIn .75s;
   padding: 1rem;
 }
