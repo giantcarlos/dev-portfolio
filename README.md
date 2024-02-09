@@ -10,7 +10,7 @@
 - CSS
 
 
-### **Project Link**
+### **Live Link**
 ---
 
 - https://www.giantcarlos.com/
