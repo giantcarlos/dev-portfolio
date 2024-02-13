@@ -1,5 +1,5 @@
 # **Web Developer Portfolio**
-Gian T. Carlos' web development online portfolio.
+Gian Taino Carlos' web development online portfolio.
 
 ### **Tech**
 ---
