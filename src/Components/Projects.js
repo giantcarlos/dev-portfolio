@@ -5,7 +5,7 @@ import { Fade } from 'react-reveal';
 function Projects() {
   return (
     <div className='container'>
-      <Fade right>
+      <Fade>
         <div className="card">
             <div className="card-image">
                 <img src={'https://i.imgur.com/zzX037x.png'} alt="cover"/>
@@ -28,7 +28,6 @@ function Projects() {
               <button className="button">Github</button>
             </Link>
         </div>
-  
         <div className="card">
             <div className="card-image">
                 <img src={'https://miro.medium.com/v2/resize:fit:4800/format:webp/0*YHBpILM5ijSmuekq.png'} alt="cover"/>
