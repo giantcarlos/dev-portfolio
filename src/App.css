@@ -156,7 +156,7 @@ h4 {
   max-width: 40%;
   margin-top: 1.25rem;
   margin-right: 1.25rem;
-  margin-bottom: .5rem;
+  margin-bottom: .75rem;
   opacity: 0;
   transform: translateX(-3rem);
   animation: fadeRight 1s forwards;
