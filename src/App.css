@@ -303,6 +303,9 @@ h4 {
   p {
     font-size: 1rem;
   }
+  .me {
+    max-width: 60%;
+  }
   .container {
     margin-top: 2.5rem;
   }
