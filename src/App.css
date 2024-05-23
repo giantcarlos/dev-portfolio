@@ -73,7 +73,7 @@ h1::after {
     blink 750ms steps(14) infinite;
 }
 
-h3 {
+h2 {
   font-size: 1.5rem;
   opacity: 0;
   transform: translateY(3rem);
@@ -121,7 +121,7 @@ p {
   color: rgb(90, 90, 90);
 }
 
-h2 {
+h3 {
   font-size: 1.275rem;
   font-weight: 600;
 }
@@ -336,7 +336,7 @@ h4 {
   h2 {
     font-size: 1.1rem;
   }
-  h3 {
+  .contact {
     font-size: 1.1rem;
   }
   .cv-image {
