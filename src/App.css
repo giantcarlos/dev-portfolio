@@ -38,7 +38,7 @@ nav a {
 }
 
 nav .active {
-  color: #863299;
+  color: #9313b0;
 }
 
 nav a:hover {
@@ -67,7 +67,7 @@ h1::before {
 
 h1::after {
   width: 0.1em;
-  background: #863299;
+  background: #9313b0;
   animation: 
     typewriter 2.5s steps(14) 250ms forwards,
     blink 750ms steps(14) infinite;
@@ -132,7 +132,7 @@ h4 {
 }
 
 .highlight {
-  color: #863299;
+  color: #9313b0;
 }
 
 .home {
