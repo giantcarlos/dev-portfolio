@@ -8,7 +8,7 @@ function Projects() {
       <Fade>
         <div className="card">
             <div className="card-image">
-                <img src={'https://i.imgur.com/zzX037x.png'} alt="cover"/>
+                <img src={'https://i.imgur.com/zzX037x.png'} alt="Image of the Dentonpalooza site."/>
             </div>
             <div className='text-container'>
               <div className="card-title">Dentonpalooza</div>
@@ -30,7 +30,7 @@ function Projects() {
         </div>
         <div className="card">
             <div className="card-image">
-                <img src={'https://miro.medium.com/v2/resize:fit:4800/format:webp/0*YHBpILM5ijSmuekq.png'} alt="cover"/>
+                <img src={'https://miro.medium.com/v2/resize:fit:4800/format:webp/0*YHBpILM5ijSmuekq.png'} alt="Image of the Miniature Tracker minis page."/>
             </div>
             <div className='text-container'>
               <div className="card-title">Miniature Tracker</div>
@@ -49,7 +49,7 @@ function Projects() {
         </div>
         <div className="card">
             <div className="card-image">
-                <img src={'https://miro.medium.com/v2/resize:fit:4800/format:webp/1*Ad37SFPk3yJxo6bzP6_VgQ.png'} alt="cover"/>
+                <img src={'https://miro.medium.com/v2/resize:fit:4800/format:webp/1*Ad37SFPk3yJxo6bzP6_VgQ.png'} alt="Image of the Scotcher home page."/>
             </div>
             <div className='text-container'>
               <div className="card-title">Scotcher</div>
