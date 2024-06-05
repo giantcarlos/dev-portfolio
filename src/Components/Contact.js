@@ -6,7 +6,7 @@ function Contact() {
     <div>
         <div className='contact-text'>
             <h3>Available for select freelance opportunities.</h3>
-            <h3>Shoot me an email with your project idea!</h3><br />
+            <h3>Send me an email with your project idea!</h3><br />
             <h3>email: giantainocarlos@gmail.com</h3>
         </div>
         <div className='icons'>
