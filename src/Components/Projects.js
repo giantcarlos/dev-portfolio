@@ -24,7 +24,7 @@ function Projects() {
             <Link to={'https://giantcarlos.github.io/dentonpalooza23/'} target="_blank">
               <button className="button">2023 Link</button>
             </Link>
-            <Link to={'https://github.com/giantcarlos/dentonpalooza23'} target="_blank">
+            <Link to={'https://github.com/giantcarlos/dentonpalooza24'} target="_blank">
               <button className="button">Github</button>
             </Link>
         </div>
