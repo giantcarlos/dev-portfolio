@@ -5,8 +5,6 @@ function CV() {
   return (
     <>
       <div className='cv'>
-        <img src={'/gianresume.jpeg'} className='cv-image' alt='My resume/curriculum vitae.'/>
-      </div>
       <a
         className="pdf-button"
         href={ResumePdf}
@@ -16,6 +14,8 @@ function CV() {
       >
         <button className="button2">Download PDF</button>  
       </a>
+        <img src={'/gianresume.jpeg'} className='cv-image' alt='My resume/curriculum vitae.'/>
+      </div>
     </>
   )
 }
