@@ -45,9 +45,17 @@ nav a:hover {
   color: #bbb
 }
 
+.name {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 h1 {
   font-size: 6.66rem;
   position: relative;
+
 }
 
 h1::before,
@@ -136,7 +144,7 @@ h4 {
 }
 
 .home {
-  margin-top: 12rem;
+  margin-top: 6rem;
   text-align: center;
 }
 
@@ -295,6 +303,9 @@ h4 {
 @media only screen and (max-width: 900px) {
   body {
     display: block;
+  }
+  .home {
+    margin-top: 9rem;
   }
   .bio {
     margin-top: 1rem;
