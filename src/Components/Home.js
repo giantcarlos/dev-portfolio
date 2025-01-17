@@ -4,7 +4,7 @@ function Home() {
   return (
     <div className="home">
         <h1>GIAN T. CARLOS</h1>
-        <h2>FRONT-END WEB DEVELOPER / UI DESIGNER</h2>
+        <h2>FRONT-END & ACCESSIBILITY DEVELOPER</h2>
     </div>
   )
 }
