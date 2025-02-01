@@ -16,14 +16,23 @@ body {
 
 nav {
   font-size: 1.1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding-top: 1.75rem;
+  padding-bottom: .75em;
   background-color: #fff;
+  opacity: 90%;
   color: #111;
-  display: inline-flex;
+  display: flex;
+  justify-content: center;
   gap: 2.5rem;
-  margin-top: 1.25rem;
+  z-index: 100;
 }
 
 .site-title {
+  margin-top: -.85rem;
   font-size: 2.25rem;
   font-weight: bold;
 }
@@ -144,12 +153,12 @@ h4 {
 }
 
 .home {
-  margin-top: 6rem;
+  margin-top: 10rem;
   text-align: center;
 }
 
 .bio {
-  margin-top: 4rem;
+  margin-top: 8rem;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 1.5rem;
@@ -183,7 +192,7 @@ h4 {
 }
 
 .contact-text {
-  margin-top: 11rem;
+  margin-top: 15rem;
   animation: fadeIn .75s;
 }
 
@@ -212,7 +221,7 @@ h4 {
 }
 
 .container {
-  margin-top: 4rem;
+  margin-top: 8.25rem;
   margin-bottom: 4.5rem;
   margin-left: 1rem;
   margin-right: 1rem;
@@ -285,7 +294,7 @@ h4 {
 }
 
 .pdf-button {
-  margin-top: 3rem;
+  margin-top: 7rem;
   display: block;
   animation: fadeIn .75s;
 }
