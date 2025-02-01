@@ -312,12 +312,14 @@ h4 {
 @media only screen and (max-width: 900px) {
   body {
     display: block;
+  }.site-title {
+    margin-top: 0rem;
   }
   .home {
-    margin-top: 9rem;
+    margin-top: 11rem;
   }
   .bio {
-    margin-top: 1rem;
+    margin-top: 4rem;
     max-width: 100%;
   }
   p {
@@ -327,7 +329,7 @@ h4 {
     max-width: 55%;
   }
   .container {
-    margin-top: 2.5rem;
+    margin-top: 6rem;
   }
   .card-title {
     font-size: 1rem;
@@ -366,19 +368,21 @@ h4 {
     margin-top: 5rem;
   }
   .contact-text {
-    margin-top: 8rem;
+    margin-top: 10rem;
   }
   .hamburger {
     display: block;
     z-index: 4;
   }
   nav {
-    padding: 0;
+    padding: 1rem;
+    position: absolute;
+    opacity: 100;
   }
   .nav-links {
     top: 0;
     left: -200%;
-    position: absolute;
+    position: fixed;
     background-color: rgb(33, 33, 33);
     width: 230px;
     height: 100%;
@@ -388,14 +392,14 @@ h4 {
     flex-direction: column;
     color: #eeeeee;
     gap: 2rem;
-    z-index: 3;
+    z-index: 100;
     transition: 0.5s ease-in-out;
     transform: translateX(100%);
   }
   .nav-links-active {
     top: 0;
     left: 0;
-    position: absolute;
+    position: fixed;
     background-color: rgb(33, 33, 33);
     width: 230px;
     height: 100%;
@@ -405,7 +409,7 @@ h4 {
     flex-direction: column;
     color: #eeeeee;
     gap: 2rem;
-    z-index: 3;
+    z-index: 100;
     transition: 0.5s ease-in-out;
     transform: translateX(0);
   }
