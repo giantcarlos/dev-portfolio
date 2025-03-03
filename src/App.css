@@ -93,8 +93,8 @@ h1::after {
 h2 {
   font-size: 1.5rem;
   opacity: 0;
-  transform: translateY(3rem);
-  animation: fadeUp .8s 2.75s forwards;
+  transform: translateY(-1.25rem);
+  animation: fadeUp .6s 2.75s forwards;
 }
 
 @keyframes typewriter {
@@ -112,7 +112,7 @@ h2 {
 @keyframes fadeUp {
   to {
     opacity: 1;
-    transform: translateY(0);
+    transform: translateY(-150%);
   }
 }
 
@@ -317,6 +317,12 @@ h4 {
   }
   .home {
     margin-top: 11rem;
+  }
+  @keyframes fadeUp {
+    to {
+      opacity: 1;
+      transform: translateY(-25%);
+    }
   }
   .bio {
     margin-top: 4rem;
