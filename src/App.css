@@ -112,7 +112,14 @@ h2 {
 @keyframes fadeUp {
   to {
     opacity: 1;
-    transform: translateY(-150%);
+    transform: translateY(-125%);
+  }
+}
+
+@keyframes fadeUp2 {
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
@@ -199,7 +206,7 @@ h4 {
 .icons {
   opacity: 0;
   transform: translateY(3rem);
-  animation: fadeUp 1s forwards;
+  animation: fadeUp2 1s forwards;
 }
 
 .logo {
