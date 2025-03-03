@@ -139,8 +139,8 @@ p {
 }
 
 h3 {
-  font-size: 1.275rem;
-  font-weight: 600;
+  font-size: 1.1rem;
+  font-weight: 300;
 }
 
 h4 {
@@ -356,9 +356,6 @@ h4 {
     font-size: 2.5rem;
   }
   h2 {
-    font-size: 1.1rem;
-  }
-  h3 {
     font-size: 1.1rem;
   }
   .cv-image {
