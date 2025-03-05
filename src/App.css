@@ -93,8 +93,8 @@ h1::after {
 h2 {
   font-size: 1.5rem;
   opacity: 0;
-  transform: translateY(-1.25rem);
-  animation: fadeUp .6s 2.75s forwards;
+  transform: translateY(.5rem);
+  animation: fadeUp .75s 2.75s forwards;
 }
 
 @keyframes typewriter {
@@ -370,7 +370,7 @@ h4 {
   }
   h2 {
     font-size: 1.1rem;
-    transform: translateY(0.5rem);
+    transform: translateY(1rem);
   }
   .cv-image {
     width: 100%;
