@@ -18,14 +18,17 @@ function Projects() {
               <div className="card-details">● Acquired firsthand exposure to professional and non-profit development dynamics.</div>
               <div className="card-details">● Incorporated accessibility design tailored to users with visual impairments.</div>
             </div>
-            <Link to={'https://dentonpalooza.com/'} target="_blank">
-              <button className="button">Live Link</button>
+            <Link to={'https://giantcarlos.github.io/dentonpalooza25/'} target="_blank">
+              <button className="button">2025 Link</button>
             </Link>
             <Link to={'https://giantcarlos.github.io/dentonpalooza24/'} target="_blank">
               <button className="button">2024 Link</button>
             </Link>
             <Link to={'https://giantcarlos.github.io/dentonpalooza23/'} target="_blank">
               <button className="button">2023 Link</button>
+            </Link>
+            <Link to={'https://dentonpalooza.com/'} target="_blank">
+              <button className="button">Live Link</button>
             </Link>
             <Link to={'https://github.com/giantcarlos/dentonpalooza25'} target="_blank">
               <button className="button">Github</button>
