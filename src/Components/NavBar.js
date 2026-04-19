@@ -17,7 +17,7 @@ function NavBar() {
       <div className="site-title">gtc.<span className="highlight">_</span></div>
       <div className={active} onClick={navOff}>
         <a className="nav-button" href="#home">// home</a>
-        <a className="nav-button" href="#bio">// bio</a>
+        <a className="nav-button" href="#main-content">// bio</a>
         <a className="nav-button" href="#projects">// projects</a>
         <a className="nav-button" href="#cv">// cv</a>
         <a className="nav-button" href="#contact">// contact</a>

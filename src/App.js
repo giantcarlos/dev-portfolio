@@ -34,12 +34,10 @@ function App() {
       <a href="#main-content" className="skip-link">Skip to main content</a>
       <NavBar />
       <section id="home"><Home /></section>
-      <main id="main-content">
-        <section id="bio"><Bio /></section>
-        <section id="projects"><Projects /></section>
-        <section id="cv"><CV /></section>
-        <section id="contact"><Contact /></section>
-      </main>
+      <section id="main-content" aria-label="main-content"><Bio /></section>
+      <section id="projects"><Projects /></section>
+      <section id="cv"><CV /></section>
+      <section id="contact"><Contact /></section>
       <BackToTop />
     </div>
   );
