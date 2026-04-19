@@ -416,6 +416,12 @@ h4 {
     padding: .5rem 1rem;
     color: #222;
   }
+  .card {
+    text-align: center;
+  }
+  .text-container {
+    text-align: left;
+  }
   .button2 {
     border: 1.375px solid #303030;
     font-size: .6rem;
