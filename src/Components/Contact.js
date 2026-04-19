@@ -4,7 +4,11 @@ import { Fade } from 'react-reveal';
 
 function Contact() {
   return (
-    <Fade>
+    <>
+      <Fade>
+        <div className="divider" />
+      </Fade>
+      <Fade>
       <div>
           <div className='contact-text'>
               <h3>Available for web development and accessibility audit work.</h3>
@@ -23,7 +27,8 @@ function Contact() {
               </Link>
           </div>
       </div>
-    </Fade>
+      </Fade>
+    </>
   )
 }
 

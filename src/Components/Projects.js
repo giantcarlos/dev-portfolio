@@ -6,6 +6,9 @@ function Projects() {
   return (
     <div className='container'>
       <Fade>
+        <div className="divider" />
+      </Fade>
+      <Fade>
         <div className="card">
             <div className="card-image">
                 <img src={'https://i.imgur.com/zzX037x.png'} alt="Dentonpalooza site."/>

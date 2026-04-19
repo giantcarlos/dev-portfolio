@@ -4,7 +4,11 @@ import ResumePdf from '../gianresume.pdf';
 
 function CV() {
   return (
-    <Fade>
+    <>
+      <Fade>
+        <div className="divider" />
+      </Fade>
+      <Fade>
       <div className='cv'>
         <a
           className="pdf-button"
@@ -17,7 +21,8 @@ function CV() {
         </a>
         <img src={'/gianresume.jpeg'} className='cv-image' alt='My resume/curriculum vitae.'/>
       </div>
-    </Fade>
+      </Fade>
+    </>
   )
 }
 
