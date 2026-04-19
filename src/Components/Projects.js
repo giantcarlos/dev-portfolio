@@ -1,13 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Fade } from 'react-reveal';
+import Divider from './Divider';
 
 function Projects() {
   return (
     <div className='container'>
-      <Fade>
-        <div className="divider" />
-      </Fade>
+      <Divider />
       <Fade>
         <div className="card">
             <div className="card-image">

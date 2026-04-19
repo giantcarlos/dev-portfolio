@@ -1,12 +1,11 @@
 import React from 'react'
 import { Fade } from 'react-reveal';
+import Divider from './Divider';
 
 function Bio() {
   return (
     <>
-      <Fade>
-        <div className="divider" />
-      </Fade>
+      <Divider />
       <Fade>
       <div className="bio">
         <img className="me" src="bolo.jpg" alt="headshot photo of Gian Carlos" />

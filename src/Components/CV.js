@@ -1,13 +1,12 @@
 import React from 'react';
 import { Fade } from 'react-reveal';
 import ResumePdf from '../gianresume.pdf';
+import Divider from './Divider';
 
 function CV() {
   return (
     <>
-      <Fade>
-        <div className="divider" />
-      </Fade>
+      <Divider />
       <Fade>
       <div className='cv'>
         <a
