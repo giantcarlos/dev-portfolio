@@ -49,8 +49,7 @@ nav {
   right: 0;
   padding-top: 1.75rem;
   padding-bottom: .75em;
-  background-color: #fff;
-  opacity: 97.5%;
+  background-color: rgba(255, 255, 255, 0.975);
   color: #111;
   display: flex;
   justify-content: center;
@@ -68,7 +67,9 @@ nav {
   margin-right: 1.75rem;
 }
 
-nav a {
+nav a,
+.nav-links a,
+.nav-links-active a {
   color: inherit;
   text-decoration: none;
 }
@@ -118,10 +119,10 @@ h1::after {
 
 h2 {
   font-size: 1.5rem;
-  margin-top: -1.5rem;
+  margin-top: -2.75rem;
   opacity: 0;
-  transform: translateY(1rem);
-  animation: fadeUp .75s 2.75s forwards;
+  transform: translateY(2rem);
+  animation: fadeUp 1.25s 2.4s forwards;
 }
 
 @keyframes typewriter {
@@ -137,7 +138,15 @@ h2 {
 }
 
 @keyframes fadeUp {
-  to {
+  0% {
+    opacity: 0;
+    transform: translateY(2rem);
+  }
+  40% {
+    opacity: 0;
+    transform: translateY(1rem);
+  }
+  100% {
     opacity: 1;
     transform: translateY(0);
   }
@@ -420,6 +429,7 @@ h4 {
   }
   h2 {
     font-size: 1.1rem;
+    margin-top: 0.5rem;
     transform: translateY(1rem);
   }
   .cv-image {
@@ -428,17 +438,31 @@ h4 {
   .logo, .logo2 {
     margin-top: 1.5rem;
   }
+
+  .icons {
+    margin-bottom: 8rem;
+  }
   .contact-text {
     margin-top: 1rem;
   }
+  nav {
+    padding: 1rem 1.5rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.92);
+    opacity: 1;
+  }
+
   .hamburger {
     display: block;
-    z-index: 4;
-  }
-  nav {
-    padding: 1.5rem;
     position: absolute;
-    opacity: 100;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 300;
   }
   .nav-links,
   .nav-links-active {
@@ -453,7 +477,7 @@ h4 {
     flex-direction: column;
     color: #eeeeee;
     gap: 2rem;
-    z-index: 100;
+    z-index: 200;
     transition: 0.5s ease-in-out;
   }
   .nav-links {
