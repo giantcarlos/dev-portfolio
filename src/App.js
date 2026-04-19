@@ -31,12 +31,15 @@ function App() {
 
   return (
     <div>
+      <a href="#main-content" className="skip-link">Skip to main content</a>
       <NavBar />
       <section id="home"><Home /></section>
-      <section id="bio"><Bio /></section>
-      <section id="projects"><Projects /></section>
-      <section id="cv"><CV /></section>
-      <section id="contact"><Contact /></section>
+      <main id="main-content">
+        <section id="bio"><Bio /></section>
+        <section id="projects"><Projects /></section>
+        <section id="cv"><CV /></section>
+        <section id="contact"><Contact /></section>
+      </main>
       <BackToTop />
     </div>
   );
