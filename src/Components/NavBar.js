@@ -1,14 +1,12 @@
 import Hamburger from 'hamburger-react';
 import React, { useState } from 'react'
-import { NavLink } from 'react-router-dom';
 
 function NavBar() {
     const [isOpen, setOpen] = useState(false)
     const [active, setActive] = useState('nav-links')
     const navToggle = () => {
         active === 'nav-links' ? setActive('nav-links-active') : setActive('nav-links');
-        console.log(active);
-      }
+    }
     const navOff = () => {
         setActive('nav-links')
         setOpen(false)
@@ -18,11 +16,11 @@ function NavBar() {
     <nav>
       <div className="site-title">gtc.<span className="highlight">_</span></div>
       <div className={active} onClick={navOff}>
-        <NavLink className="nav-button" to="/">// home</NavLink>
-        <NavLink className="nav-button" to="/bio">// bio</NavLink>
-        <NavLink className="nav-button" to="/projects">// projects</NavLink>
-        <NavLink className="nav-button" to="/cv">// cv</NavLink>
-        <NavLink className="nav-button" to="/contact">// contact</NavLink>
+        <a className="nav-button" href="#home">// home</a>
+        <a className="nav-button" href="#bio">// bio</a>
+        <a className="nav-button" href="#projects">// projects</a>
+        <a className="nav-button" href="#cv">// cv</a>
+        <a className="nav-button" href="#contact">// contact</a>
       </div>
       <div className="hamburger" onClick={navToggle}>
         <Hamburger toggled={isOpen} toggle={setOpen}/>

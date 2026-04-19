@@ -1,5 +1,33 @@
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   box-sizing: border-box;
+}
+
+section {
+  scroll-margin-top: 5rem;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+}
+
+section:not(:first-of-type)::before {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #9313b0;
+  margin: 0 auto 2.5rem;
+}
+
+section:first-of-type {
+  padding-top: 0;
+}
+
+section:last-of-type {
+  min-height: 80vh;
+  padding-top: 6rem;
 }
 
 body {
@@ -11,7 +39,6 @@ body {
   place-content: center;
   text-align: center;
   line-height: 1.5;
-  object-fit: contain;
 }
 
 nav {
@@ -46,7 +73,7 @@ nav a {
   text-decoration: none;
 }
 
-nav .active {
+nav a.active {
   color: #9313b0;
 }
 
@@ -55,7 +82,6 @@ nav a:hover {
 }
 
 .name {
-  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -92,8 +118,9 @@ h1::after {
 
 h2 {
   font-size: 1.5rem;
+  margin-top: -1.5rem;
   opacity: 0;
-  transform: translateY(.5rem);
+  transform: translateY(1rem);
   animation: fadeUp .75s 2.75s forwards;
 }
 
@@ -110,13 +137,6 @@ h2 {
 }
 
 @keyframes fadeUp {
-  to {
-    opacity: 1;
-    transform: translateY(-125%);
-  }
-}
-
-@keyframes fadeUp2 {
   to {
     opacity: 1;
     transform: translateY(0);
@@ -160,18 +180,22 @@ h4 {
 }
 
 .home {
-  margin-top: 10rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
+  padding-bottom: 8rem;
 }
 
 .bio {
-  margin-top: 8rem;
+  margin-top: 1rem;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 1.5rem;
   text-align: left;
   max-width: 755px;
-  animation: fadeIn .75s;
   padding: 1rem;
 }
 
@@ -187,8 +211,7 @@ h4 {
 }
 
 .cv {
-  margin-top: 1.625rem;
-  animation: fadeIn .75s;
+  margin-top: 1rem;
 }
 
 .cv-image {
@@ -199,37 +222,32 @@ h4 {
 }
 
 .contact-text {
-  margin-top: 15rem;
+  margin-top: 1rem;
   animation: fadeIn .75s;
 }
 
 .icons {
   opacity: 0;
   transform: translateY(3rem);
-  animation: fadeUp2 1s forwards;
+  animation: fadeUp 1s forwards;
 }
 
-.logo {
-  margin-top: 7.5rem;
-  width: 60px;
+.logo, .logo2 {
+  margin-top: 2rem;
   padding: .5rem;
   transition: 200ms transform ease-in-out;
 }
 
-.logo2 {
-  margin-top: 7.5rem;
-  width: 70px;
-  padding: .5rem;
-  transition: 200ms transform ease-in-out;
-}
+.logo { width: 60px; }
+.logo2 { width: 70px; }
 
 .logo:hover, .logo2:hover {
   transform: scale(1.175);
 }
 
 .container {
-  margin-top: 8.25rem;
-  margin-bottom: 4.5rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
   margin-left: 1rem;
   margin-right: 1rem;
   display: grid;
@@ -301,7 +319,7 @@ h4 {
 }
 
 .pdf-button {
-  margin-top: 7rem;
+  margin-top: 0;
   display: block;
   animation: fadeIn .75s;
 }
@@ -323,16 +341,10 @@ h4 {
     margin-top: 0rem;
   }
   .home {
-    margin-top: 11rem;
-  }
-  @keyframes fadeUp {
-    to {
-      opacity: 1;
-      transform: translateY(-25%);
-    }
+    height: 100vh;
   }
   .bio {
-    margin-top: 4rem;
+    margin-top: 1rem;
     max-width: 100%;
   }
   p {
@@ -342,7 +354,7 @@ h4 {
     max-width: 55%;
   }
   .container {
-    margin-top: 6rem;
+    margin-top: 1rem;
   }
   .card-title {
     font-size: 1rem;
@@ -376,10 +388,10 @@ h4 {
     width: 100%;
   }
   .logo, .logo2 {
-    margin-top: 5rem;
+    margin-top: 1.5rem;
   }
   .contact-text {
-    margin-top: 10rem;
+    margin-top: 1rem;
   }
   .hamburger {
     display: block;
@@ -390,9 +402,9 @@ h4 {
     position: absolute;
     opacity: 100;
   }
-  .nav-links {
+  .nav-links,
+  .nav-links-active {
     top: 0;
-    left: -200%;
     position: fixed;
     background-color: rgb(33, 33, 33);
     width: 230px;
@@ -405,23 +417,13 @@ h4 {
     gap: 2rem;
     z-index: 100;
     transition: 0.5s ease-in-out;
+  }
+  .nav-links {
+    left: -200%;
     transform: translateX(100%);
   }
   .nav-links-active {
-    top: 0;
     left: 0;
-    position: fixed;
-    background-color: rgb(33, 33, 33);
-    width: 230px;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    color: #eeeeee;
-    gap: 2rem;
-    z-index: 100;
-    transition: 0.5s ease-in-out;
     transform: translateX(0);
   }
 }
