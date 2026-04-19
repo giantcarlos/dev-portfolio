@@ -20,6 +20,7 @@ function Projects() {
               <div className="card-details">● Acquired firsthand exposure to professional and non-profit development dynamics.</div>
               <div className="card-details">● Incorporated accessibility design tailored to users with visual impairments.</div>
             </div>
+            <div className="button-group">
             <Link to={'https://giantcarlos.github.io/dentonpalooza25/'} target="_blank">
               <button className="button">2025 Link</button>
             </Link>
@@ -35,6 +36,7 @@ function Projects() {
             <Link to={'https://github.com/giantcarlos/dentonpalooza25'} target="_blank">
               <button className="button">Github</button>
             </Link>
+            </div>
         </div>
         <div className="card">
             <div className="card-image">
@@ -48,12 +50,14 @@ function Projects() {
               <div className="card-details">● Implemented client-side validations using React JS.</div>
               <div className="card-details">● Modeled custom database schema and REST API with Active Record and Ruby.</div>
             </div>
+            <div className="button-group">
             <Link to={'https://www.youtube.com/watch?v=6RkCSsI5L7A'} target="_blank">
               <button className="button">Demo Video</button>
             </Link>
             <Link to={'https://github.com/giantcarlos/mini-tracker-client'} target="_blank">
               <button className="button">Github</button>
             </Link>
+            </div>
         </div>
         <div className="card">
             <div className="card-image">
@@ -67,12 +71,14 @@ function Projects() {
               <div className="card-details">● Implemented user authentication, authorization, and password encryption with BCrypt.</div>
               <div className="card-details">● Utilized Redux Toolkit for asynchronous data retrieval and front-end state management.</div>
             </div>
+            <div className="button-group">
             <Link to={'https://www.youtube.com/watch?v=uLI89WSmleM'} target="_blank">
               <button className="button">Demo Video</button>
             </Link>
             <Link to={'https://github.com/giantcarlos/scotcher'} target="_blank">
               <button className="button">Github</button>
             </Link>
+            </div>
         </div>
         <div className="card">
             <div className="card-image">
@@ -85,12 +91,14 @@ function Projects() {
               <div className="card-details">● Designed visually appealing layouts, cards, and buttons with custom CSS styling.</div>
               <div className="card-details">● Implemented UI/UX design principles for a seamless customer online retail experience.</div>
             </div>
+            <div className="button-group">
             <Link to={'https://www.youtube.com/watch?v=D04XhApmUg8'} target="_blank">
               <button className="button">Demo Video</button>
             </Link>
             <Link to={'https://github.com/giantcarlos/post-records-storefront'} target="_blank">
               <button className="button">Github</button>
             </Link>
+            </div>
         </div>
         </Fade>
     </div>

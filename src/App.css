@@ -380,10 +380,16 @@ h4 {
   color: rgb(90, 90, 90);
 }
 
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .button {
-  width: 22%;
+  width: 10.5rem;
   font-family: inherit;
-  padding: .3rem 1rem;
+  padding: .3rem 2rem;
   background-color: white;
   margin: .5rem;
 }
@@ -473,10 +479,19 @@ h4 {
   }
   .button {
     border: 1.375px solid #303030;
-    width: 9.5rem;
+    width: 100%;
+    font-size: 0.85rem;
     font-family: inherit;
-    padding: .5rem 1rem;
+    padding: .6rem 0.5rem;
     color: #222;
+    margin: 0;
+  }
+
+  .button-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+    justify-content: flex-start;
   }
   .card {
     text-align: center;
