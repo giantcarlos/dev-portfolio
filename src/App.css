@@ -82,6 +82,11 @@ nav a:hover {
   color: #bbb
 }
 
+.nav-links a:hover,
+.nav-links-active a:hover {
+  color: #9313b0;
+}
+
 .name {
   display: flex;
   justify-content: center;
@@ -446,7 +451,7 @@ h4 {
   }
 
   .icons {
-    margin-bottom: 8rem;
+    margin-bottom: 5rem;
   }
   .contact-text {
     margin-top: 1rem;
