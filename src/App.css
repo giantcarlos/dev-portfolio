@@ -221,6 +221,17 @@ h4 {
   filter: grayscale(100%);
 }
 
+.email-link {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: #9313b0;
+  text-underline-offset: 3px;
+}
+
+.email-link:hover {
+  color: #9313b0;
+}
+
 .contact-text {
   margin-top: 1rem;
   animation: fadeIn .75s;
@@ -328,6 +339,33 @@ h4 {
   background: #ddd;
   color: #111;
   cursor: pointer;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 2.75rem;
+  height: 2.75rem;
+  background-color: #9313b0;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  font-size: 1.25rem;
+  cursor: pointer;
+  opacity: 0;
+  transform: translateY(1rem);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  z-index: 200;
+}
+
+.back-to-top-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.back-to-top:hover {
+  background-color: #7a0e93;
 }
 
 .hamburger {

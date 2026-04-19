@@ -9,7 +9,7 @@ function Contact() {
           <div className='contact-text'>
               <h3>Available for web development and accessibility audit work.</h3>
               <h3>Shoot me an email with your project idea!</h3><br />
-              <h3>email: giantainocarlos@gmail.com</h3>
+              <h3>email: <a href="mailto:giantainocarlos@gmail.com" className="email-link">giantainocarlos@gmail.com</a></h3>
           </div>
           <div className='icons'>
               <Link to={'https://www.linkedin.com/in/gian-taino-carlos/'} target="_blank">

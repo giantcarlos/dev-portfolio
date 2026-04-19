@@ -7,6 +7,7 @@ import Bio from './Components/Bio';
 import Projects from './Components/Projects';
 import CV from './Components/CV';
 import Contact from './Components/Contact';
+import BackToTop from './Components/BackToTop';
 
 function App() {
   useEffect(() => {
@@ -34,6 +35,7 @@ function App() {
       <section id="projects"><Projects /></section>
       <section id="cv"><CV /></section>
       <section id="contact"><Contact /></section>
+      <BackToTop />
     </div>
   );
 }
