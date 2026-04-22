@@ -112,40 +112,58 @@ nav a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  min-height: 16rem;
+  top: 1.6rem;
+}
+
+.home-circle {
+  position: absolute;
+  width: clamp(13rem, 32vw, 22.5rem);
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 30%, #e39ff0 0%, #c85adb 55%, #a639c0 100%);
+  z-index: 0;
+  opacity: 0.55;
+  animation: circleGlow 4s ease-in-out infinite;
+  transform: translateY(2rem);
 }
 
 h1 {
   font-size: 6.66rem;
   position: relative;
-
+  z-index: 1;
 }
 
-h1::before,
-h1::after {
+.home h1 {
+  display: inline-block;
+  white-space: nowrap;
+  position: relative;
+  line-height: 1;
+  margin: 0;
+}
+
+.home-title-text {
+  display: inline-block;
+  white-space: nowrap;
+  clip-path: inset(0 100% 0 0);
+  animation: typewriter 2.5s steps(14, end) 250ms forwards;
+}
+
+.home h1::after {
   content: '';
   position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
+  top: 0.02em;
   left: 0;
-}
-
-h1::before {
-  background: white;
-  animation: typewriter 2.5s steps(14) 250ms forwards;
-}
-
-h1::after {
   width: 0.1em;
+  height: 0.96em;
   background: #9313b0;
-  animation: 
-    typewriter 2.5s steps(14) 250ms forwards,
-    blink 750ms steps(14) infinite;
+  animation: caretMove 2.5s steps(14, end) 250ms forwards, caretBlinkFade 800ms ease-in-out 2.75s infinite;
 }
 
-h2 {
+.home h2 {
   font-size: 1.5rem;
-  margin-top: -1.825rem;
+  margin-top: 0.35rem;
   opacity: 0;
   transform: translateY(4rem);
   animation: fadeUp 1.25s 2.4s forwards;
@@ -153,13 +171,50 @@ h2 {
 
 @keyframes typewriter {
   to {
-    left: 100%;
+    clip-path: inset(0 0% 0 0);
   }
 }
 
-@keyframes blink {
+@keyframes caretMove {
+  from {
+    left: 0;
+  }
   to {
-    background: transparent;
+    left: calc(14ch + 0.2em);
+  }
+}
+
+@keyframes caretBlinkFade {
+  0%,
+  35% {
+    opacity: 1;
+  }
+  60%,
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes circleGlow {
+  0% {
+    box-shadow: 0 0 3rem rgba(195, 90, 219, 0.5);
+    filter: brightness(0.95);
+  }
+  25% {
+    box-shadow: 0 0 6rem rgba(195, 90, 219, 0.8);
+    filter: brightness(1.05);
+  }
+  50% {
+    box-shadow: 0 0 10rem rgba(195, 90, 219, 1), 0 0 20rem rgba(195, 90, 219, 0.5);
+    filter: brightness(1.15);
+  }
+  75% {
+    box-shadow: 0 0 14rem rgba(195, 90, 219, 0.7);
+    filter: brightness(1.05);
+  }
+  100% {
+    box-shadow: 0 0 3rem rgba(195, 90, 219, 0.5);
+    filter: brightness(0.95);
   }
 }
 
@@ -443,6 +498,24 @@ h4 {
 
 .hamburger {
   display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .home h1 {
+    font-size: 3.25rem;
+  }
+  .home h2 {
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1000px) {
+  .home h1 {
+    font-size: 4rem;
+  }
+  .home h2 {
+    font-size: 1.3rem;
+  }
 }
 
 @media only screen and (max-width: 900px) {
