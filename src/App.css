@@ -126,7 +126,7 @@ nav a:hover {
   z-index: 0;
   opacity: 0.55;
   animation: circleGlow 4s ease-in-out infinite;
-  transform: translateY(2rem);
+  transform: translateY(3rem);
 }
 
 h1 {
