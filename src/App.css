@@ -156,7 +156,7 @@ h1 {
   top: 0.02em;
   left: 0;
   width: 0.1em;
-  height: 0.96em;
+  height: 1.05em;
   background: #9313b0;
   animation: caretMove 2.5s steps(14, end) 250ms forwards, caretBlinkFade 800ms ease-in-out 2.75s infinite;
 }
@@ -502,7 +502,7 @@ h4 {
 
 @media only screen and (max-width: 600px) {
   .home h1 {
-    font-size: 3rem;
+    font-size: 2.75rem;
   }
   .home h2 {
     font-size: 1.1rem;
