@@ -125,7 +125,7 @@ nav a:hover {
   background: radial-gradient(circle at 35% 30%, #e39ff0 0%, #c85adb 55%, #a639c0 100%);
   z-index: 0;
   opacity: 0.55;
-  animation: circleGlow 4s ease-in-out infinite;
+  animation: circleGlow 4s ease-in-out infinite, circleHover 5.5s ease-in-out infinite;
   transform: translateY(3rem);
 }
 
@@ -216,6 +216,16 @@ h1 {
   100% {
     box-shadow: 0 0 3rem rgba(195, 90, 219, 0.5);
     filter: brightness(0.95);
+  }
+}
+
+@keyframes circleHover {
+  0%,
+  100% {
+    transform: translateY(2.85rem);
+  }
+  50% {
+    transform: translateY(3.15rem);
   }
 }
 
