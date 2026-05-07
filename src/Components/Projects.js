@@ -15,10 +15,10 @@ function Projects() {
             <div className='text-container'>
               <div className="card-title">Dentonpalooza</div>
               <div className="card-details">Yearly freelance web development project for the non-profit festival, Dentonpalooza.</div>
-              <div className="card-details">● Utilized React and Framer Motion to build an engaging, informational website.</div>
-              <div className="card-details">● Translated artistic direction into UI/UX, while incorporating sponsor identities.</div>
-              <div className="card-details">● Acquired firsthand exposure to professional and non-profit development dynamics.</div>
-              <div className="card-details">● Incorporated accessibility design tailored to users with visual impairments.</div>
+              <div className="card-details bullet-detail">● Utilized React and Framer Motion to build an engaging, informational website.</div>
+              <div className="card-details bullet-detail">● Translated artistic direction into UI/UX, while incorporating sponsor identities.</div>
+              <div className="card-details bullet-detail">● Acquired firsthand exposure to professional and non-profit development dynamics.</div>
+              <div className="card-details bullet-detail">● Incorporated accessibility design tailored to users with visual impairments.</div>
             </div>
             <div className="button-group">
             <Link to={'https://giantcarlos.github.io/dentonpalooza25/'} target="_blank">
@@ -45,10 +45,10 @@ function Projects() {
             <div className='text-container'>
               <div className="card-title">Miniature Tracker</div>
               <div className="card-details">Collection application to assist D&D/tabletop dungeon masters in managing miniature collections.</div>
-              <div className="card-details">● Developed a JavaScript/React front-end and Ruby/Sinatra back-end application.</div>
-              <div className="card-details">● Managed front-end state using the useContext hook.</div>
-              <div className="card-details">● Implemented client-side validations using React JS.</div>
-              <div className="card-details">● Modeled custom database schema and REST API with Active Record and Ruby.</div>
+              <div className="card-details bullet-detail">● Developed a JavaScript/React front-end and Ruby/Sinatra back-end application.</div>
+              <div className="card-details bullet-detail">● Managed front-end state using the useContext hook.</div>
+              <div className="card-details bullet-detail">● Implemented client-side validations using React JS.</div>
+              <div className="card-details bullet-detail">● Modeled custom database schema and REST API with Active Record and Ruby.</div>
             </div>
             <div className="button-group">
             <Link to={'https://www.youtube.com/watch?v=6RkCSsI5L7A'} target="_blank">
@@ -66,10 +66,10 @@ function Projects() {
             <div className='text-container'>
               <div className="card-title">Scotcher</div>
               <div className="card-details">Journal application for Scotch enthusiasts to track their taste experiences.</div>
-              <div className="card-details">● Developed a JavaScript/React/Redux front-end and Ruby/Rails back-end application.</div>
-              <div className="card-details">● Integrated server-side validations using Rails and Active Record.</div>
-              <div className="card-details">● Implemented user authentication, authorization, and password encryption with BCrypt.</div>
-              <div className="card-details">● Utilized Redux Toolkit for asynchronous data retrieval and front-end state management.</div>
+              <div className="card-details bullet-detail">● Developed a JavaScript/React/Redux front-end and Ruby/Rails back-end application.</div>
+              <div className="card-details bullet-detail">● Integrated server-side validations using Rails and Active Record.</div>
+              <div className="card-details bullet-detail">● Implemented user authentication, authorization, and password encryption with BCrypt.</div>
+              <div className="card-details bullet-detail">● Utilized Redux Toolkit for asynchronous data retrieval and front-end state management.</div>
             </div>
             <div className="button-group">
             <Link to={'https://www.youtube.com/watch?v=uLI89WSmleM'} target="_blank">
@@ -87,9 +87,9 @@ function Projects() {
             <div className='text-container'>
               <div className="card-title">Post-Records</div>
               <div className="card-details">Online retail storefront for a specialty record store dealing with rare and out of print post-punk records.</div>
-              <div className="card-details">● Developed a JavaScript/React front-end application with a mock JSON API back-end.</div>
-              <div className="card-details">● Designed visually appealing layouts, cards, and buttons with custom CSS styling.</div>
-              <div className="card-details">● Implemented UI/UX design principles for a seamless customer online retail experience.</div>
+              <div className="card-details bullet-detail">● Developed a JavaScript/React front-end application with a mock JSON API back-end.</div>
+              <div className="card-details bullet-detail">● Designed visually appealing layouts, cards, and buttons with custom CSS styling.</div>
+              <div className="card-details bullet-detail">● Implemented UI/UX design principles for a seamless customer online retail experience.</div>
             </div>
             <div className="button-group">
             <Link to={'https://www.youtube.com/watch?v=D04XhApmUg8'} target="_blank">

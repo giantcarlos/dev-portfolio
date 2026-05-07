@@ -446,6 +446,11 @@ h4 {
   color: rgb(90, 90, 90);
 }
 
+.bullet-detail {
+  padding-left: 1.2rem;
+  text-indent: -1.2rem;
+}
+
 .button-group {
   display: flex;
   flex-wrap: wrap;
