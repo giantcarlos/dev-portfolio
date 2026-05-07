@@ -383,7 +383,7 @@ h4 {
 }
 
 .logo { width: 60px; }
-.logo2 { width: 70px; }
+.logo2 { width: 75px; position: relative; top: 5px; }
 
 .logo:hover, .logo2:hover {
   transform: scale(1.175);
