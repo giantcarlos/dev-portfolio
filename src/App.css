@@ -125,8 +125,8 @@ nav a:hover {
   background: radial-gradient(circle at 35% 30%, #e39ff0 0%, #c85adb 55%, #a639c0 100%);
   z-index: 0;
   opacity: 0.55;
-  animation: circleGlow 4s ease-in-out infinite, circleHover 5.5s ease-in-out infinite;
-  transform: translateY(3rem);
+  animation: circleGlow 4s ease-in-out infinite;
+  transition: opacity 0.3s ease;
 }
 
 h1 {
