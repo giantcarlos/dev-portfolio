@@ -44,7 +44,7 @@ function App() {
   }, []);
 
   return (
-    <div>
+    <div className="app-shell">
       <a href="#main-content" className="skip-link">Skip to main content</a>
       <NavBar />
       <section id="home"><Home /></section>

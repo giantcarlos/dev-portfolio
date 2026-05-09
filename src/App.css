@@ -2,6 +2,25 @@ html {
   scroll-behavior: auto;
 }
 
+.app-shell {
+  animation: pageLoadFade 500ms ease-out both;
+}
+
+@keyframes pageLoadFade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .app-shell {
+    animation: none;
+  }
+}
+
 .skip-link {
   position: fixed;
   top: 0;
