@@ -384,7 +384,7 @@ h4 {
 }
 
 .contact-footer {
-  margin-top: 12rem;
+  margin-top: 10rem;
 }
 
 .contact-divider-line {
@@ -404,7 +404,7 @@ h4 {
   opacity: 0;
   transform: translateY(3rem);
   animation: fadeUp 1s forwards;
-  margin-top: 3rem;
+  margin-top: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -425,7 +425,7 @@ h4 {
 }
 
 .contact-copyright {
-  margin-top: 1.25rem;
+  margin-top: 1rem;
   margin-bottom: 0;
   text-align: center;
   font-size: 0.82rem;
@@ -679,8 +679,8 @@ h4 {
   }
 
   .contact-copyright {
-    margin-top: 0;
-    margin-bottom: 5rem;
+    margin-top: -0.5rem;
+    margin-bottom: 1rem;
   }
   .contact-text {
     margin-top: 1rem;
