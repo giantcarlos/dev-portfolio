@@ -1,5 +1,5 @@
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: auto;
 }
 
 .skip-link {
@@ -119,14 +119,12 @@ nav a:hover {
 
 .home-circle {
   position: absolute;
-  width: clamp(13rem, 32vw, 22.5rem);
+  width: clamp(17rem, 32vw, 22.5rem);
   aspect-ratio: 1;
   border-radius: 50%;
   background: radial-gradient(circle at 35% 30%, #e39ff0 0%, #c85adb 55%, #a639c0 100%);
   z-index: 0;
-  opacity: 0.55;
   animation: circleGlow 4s ease-in-out infinite;
-  transition: opacity 0.3s ease;
 }
 
 h1 {
@@ -201,23 +199,23 @@ h1 {
 @keyframes circleGlow {
   0% {
     box-shadow: 0 0 3rem rgba(195, 90, 219, 0.5);
-    filter: brightness(0.95);
+    opacity: 0.45;
   }
   25% {
     box-shadow: 0 0 6rem rgba(195, 90, 219, 0.8);
-    filter: brightness(1.05);
+    opacity: 0.52;
   }
   50% {
     box-shadow: 0 0 10rem rgba(195, 90, 219, 1), 0 0 20rem rgba(195, 90, 219, 0.5);
-    filter: brightness(1.15);
+    opacity: 0.65;
   }
   75% {
     box-shadow: 0 0 14rem rgba(195, 90, 219, 0.7);
-    filter: brightness(1.05);
+    opacity: 0.52;
   }
   100% {
     box-shadow: 0 0 3rem rgba(195, 90, 219, 0.5);
-    filter: brightness(0.95);
+    opacity: 0.45;
   }
 }
 
@@ -401,9 +399,6 @@ h4 {
 }
 
 .icons {
-  opacity: 0;
-  transform: translateY(3rem);
-  animation: fadeUp 1s forwards;
   margin-top: 2rem;
   display: flex;
   justify-content: center;
@@ -432,6 +427,17 @@ h4 {
   font-weight: 700;
   letter-spacing: 0.03em;
   color: rgba(0, 0, 0, 0.68);
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(1.5rem);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.reveal-visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .container {

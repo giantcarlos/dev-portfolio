@@ -26,7 +26,21 @@ function App() {
     }
     requestAnimationFrame(raf);
 
-    return () => lenis.destroy();
+    const handleAnchorClick = (e) => {
+      const anchor = e.target.closest('a[href^="#"]');
+      if (!anchor) return;
+      const target = anchor.getAttribute('href');
+      const el = document.querySelector(target);
+      if (!el) return;
+      e.preventDefault();
+      lenis.scrollTo(el);
+    };
+    document.addEventListener('click', handleAnchorClick);
+
+    return () => {
+      lenis.destroy();
+      document.removeEventListener('click', handleAnchorClick);
+    };
   }, []);
 
   return (

@@ -1,14 +1,32 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
-import { Fade } from 'react-reveal';
 import Divider from './Divider';
 
+function useReveal() {
+  const ref = useRef(null);
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    const observer = new IntersectionObserver(
+      ([entry]) => { if (entry.isIntersecting) { el.classList.add('reveal-visible'); observer.disconnect(); } },
+      { threshold: 0.1 }
+    );
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, []);
+  return ref;
+}
+
 function Projects() {
+  const card1 = useReveal();
+  const card2 = useReveal();
+  const card3 = useReveal();
+  const card4 = useReveal();
+
   return (
     <div className='container'>
       <Divider />
-      <Fade>
-        <div className="card">
+        <div ref={card1} className="card reveal">
             <div className="card-image">
                 <img src={'https://i.imgur.com/zzX037x.png'} alt="Dentonpalooza site."/>
             </div>
@@ -38,7 +56,7 @@ function Projects() {
             </Link>
             </div>
         </div>
-        <div className="card">
+        <div ref={card2} className="card reveal">
             <div className="card-image">
                 <img src={'https://miro.medium.com/v2/resize:fit:4800/format:webp/0*YHBpILM5ijSmuekq.png'} alt="Miniature Tracker minis collection page."/>
             </div>
@@ -59,7 +77,7 @@ function Projects() {
             </Link>
             </div>
         </div>
-        <div className="card">
+        <div ref={card3} className="card reveal">
             <div className="card-image">
                 <img src={'https://miro.medium.com/v2/resize:fit:4800/format:webp/1*Ad37SFPk3yJxo6bzP6_VgQ.png'} alt="Scotcher home page."/>
             </div>
@@ -80,7 +98,7 @@ function Projects() {
             </Link>
             </div>
         </div>
-        <div className="card">
+        <div ref={card4} className="card reveal">
             <div className="card-image">
                 <img src={'https://miro.medium.com/v2/resize:fit:1400/format:webp/1*lJwrn2GVmSOiMSdHgzoc3A.png'} alt="cover"/>
             </div>
@@ -100,7 +118,6 @@ function Projects() {
             </Link>
             </div>
         </div>
-        </Fade>
     </div>
   )
 }
