@@ -370,6 +370,12 @@ h4 {
 .contact-text {
   margin-top: 1rem;
   animation: fadeIn .75s;
+  font-weight: 700;
+}
+
+.contact-text h3,
+.contact-text .email-link {
+  font-weight: 700;
 }
 
 .icons {
@@ -618,6 +624,7 @@ h4 {
   .cv-image {
     width: 100%;
   }
+
   .logo, .logo2 {
     margin-top: 1.5rem;
   }
@@ -628,6 +635,7 @@ h4 {
   .contact-text {
     margin-top: 1rem;
   }
+
   nav {
     padding: 1rem 1.5rem;
     position: fixed;
