@@ -30,7 +30,7 @@ function Contact() {
               </Link>
             </div>
             <p className='contact-copyright'>
-              Copyright {currentYear} Gian Taino Carlos.
+              © {currentYear} Copyright Gian Taino Carlos.
             </p>
           </div>
         </div>
