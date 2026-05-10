@@ -7,8 +7,18 @@ function Home() {
     const circle = circleRef.current;
     if (!circle) return;
 
+    let latestScrollY = window.scrollY;
+    let animationFrameId;
+
+    const animateCircle = (time) => {
+      const floatOffset = Math.sin(time * 0.0020) * 7;
+      circle.style.transform = `translateY(calc(3rem + ${latestScrollY * 0.5 + floatOffset}px))`;
+      animationFrameId = requestAnimationFrame(animateCircle);
+    };
+
     const handleScroll = () => {
       const scrollY = window.scrollY;
+      latestScrollY = scrollY;
       const bioSection = document.getElementById('main-content');
 
       if (bioSection) {
@@ -27,13 +37,16 @@ function Home() {
         }
 
         circle.style.opacity = opacity;
-        circle.style.transform = `translateY(calc(3rem + ${scrollY * 0.5}px))`;
       }
     };
 
     handleScroll();
+    animationFrameId = requestAnimationFrame(animateCircle);
     window.addEventListener('scroll', handleScroll, { passive: true });
-    return () => window.removeEventListener('scroll', handleScroll);
+    return () => {
+      cancelAnimationFrame(animationFrameId);
+      window.removeEventListener('scroll', handleScroll);
+    };
   }, []);
 
   return (
