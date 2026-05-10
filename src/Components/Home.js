@@ -11,7 +11,7 @@ function Home() {
     let animationFrameId;
 
     const animateCircle = (time) => {
-      const floatOffset = Math.sin(time * 0.0020) * 7;
+      const floatOffset = Math.sin(time * 0.0020) * 5;
       circle.style.transform = `translateY(calc(3rem + ${latestScrollY * 0.5 + floatOffset}px))`;
       animationFrameId = requestAnimationFrame(animateCircle);
     };
