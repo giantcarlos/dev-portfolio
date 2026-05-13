@@ -21,6 +21,7 @@ function Bio() {
               <li>Adobe InDesign</li>
               <li>Adobe Illustrator</li>
               <li>Figma</li>
+              <li>FigJam</li>
             </ul>
           </div>
         </Fade>
