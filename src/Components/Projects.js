@@ -32,7 +32,7 @@ function Projects() {
             </div>
             <div className='text-container'>
               <div className="card-title">Dentonpalooza</div>
-              <div className="card-details">Yearly freelance web development project for the non-profit festival, Dentonpalooza.</div>
+              <div className="card-details">Yearly web development project for the non-profit charity festival, Dentonpalooza.</div>
               <div className="card-details bullet-detail">● Utilized React and Framer Motion to build an engaging, informational website.</div>
               <div className="card-details bullet-detail">● Translated artistic direction into UI/UX, while incorporating sponsor identities.</div>
               <div className="card-details bullet-detail">● Acquired firsthand exposure to professional and non-profit development dynamics.</div>
