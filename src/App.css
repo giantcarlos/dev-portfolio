@@ -119,6 +119,27 @@ nav a,
   text-decoration: none;
 }
 
+nav a {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.35ch;
+}
+
+.nav-prefix {
+  flex: 0 0 auto;
+}
+
+.nav-label {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 0.2rem;
+  background-image: linear-gradient(#9313b0, #9313b0);
+  background-repeat: no-repeat;
+  background-position: left calc(100% - 0.05rem);
+  background-size: 0% 2px;
+  transition: background-size 220ms ease, color 220ms ease;
+}
+
 nav a.active {
   color: #9313b0;
 }
@@ -127,9 +148,22 @@ nav a:hover {
   color: #bbb
 }
 
+.nav-label:hover,
+.nav-label:focus-visible,
+nav a:hover .nav-label,
+nav a:focus-visible .nav-label {
+  background-size: calc(100% + 2ch) 2px;
+}
+
 .nav-links a:hover,
 .nav-links-active a:hover {
   color: #9313b0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .nav-label {
+    transition: none;
+  }
 }
 
 .name {

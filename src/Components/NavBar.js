@@ -16,11 +16,11 @@ function NavBar() {
     <nav>
       <div className="site-title">gtc.<span className="highlight">_</span></div>
       <div className={active} onClick={navOff}>
-        <a className="nav-button" href="#home">// home</a>
-        <a className="nav-button" href="#main-content">// bio</a>
-        <a className="nav-button" href="#projects">// projects</a>
-        <a className="nav-button" href="#cv">// cv</a>
-        <a className="nav-button" href="#contact">// contact</a>
+        <a className="nav-button" href="#home"><span className="nav-prefix">//</span><span className="nav-label">home</span></a>
+        <a className="nav-button" href="#main-content"><span className="nav-prefix">//</span><span className="nav-label">bio</span></a>
+        <a className="nav-button" href="#projects"><span className="nav-prefix">//</span><span className="nav-label">projects</span></a>
+        <a className="nav-button" href="#cv"><span className="nav-prefix">//</span><span className="nav-label">cv</span></a>
+        <a className="nav-button" href="#contact"><span className="nav-prefix">//</span><span className="nav-label">contact</span></a>
       </div>
       <div className="hamburger" onClick={navToggle}>
         <Hamburger toggled={isOpen} toggle={setOpen}/>
