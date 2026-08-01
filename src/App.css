@@ -663,6 +663,9 @@ h4 {
   .bio {
     margin-top: 1rem;
     max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
   }
   .skills {
     grid-template-columns: 1fr;
@@ -672,7 +675,10 @@ h4 {
     font-size: 1rem;
   }
   .me {
-    max-width: 55%;
+    float: none;
+    max-width: 100%;
+    width: 100%;
+    margin: 0 0 1rem 0;
   }
   .container {
     margin-top: 1rem;
