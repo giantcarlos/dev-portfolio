@@ -550,6 +550,22 @@ h4 {
   color: rgb(90, 90, 90);
 }
 
+.project-toggle {
+  display: none;
+  border: 0;
+  background: transparent;
+  padding: 0;
+  margin: 0 0 0.75rem;
+  font: inherit;
+  color: #9313b0;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.project-bullets {
+  display: block;
+}
+
 .bullet-detail {
   padding-left: 1.2rem;
   text-indent: -1.2rem;
@@ -670,6 +686,18 @@ h4 {
   .skills {
     grid-template-columns: 1fr;
     gap: 1.5rem;
+  }
+
+  .project-toggle {
+    display: inline-block;
+  }
+
+  .project-bullets {
+    display: none;
+  }
+
+  .project-bullets.is-open {
+    display: block;
   }
   p {
     font-size: 1rem;
