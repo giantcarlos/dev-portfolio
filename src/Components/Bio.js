@@ -13,54 +13,46 @@ function Bio() {
         <p>Beyond the world of code, I am a former touring musician turned local Dallas area DJ. I am also a dedicated long-distance runner with four Dallas Marathon finishes. During my downtime, I enjoy playing Dungeons & Dragons and Magic: The Gathering, as I value the creativity and social connections these games foster.</p>
       </div>
       <div className="skills">
-        <div className="skills-left">
-          <div className="skills-item skills-design">
-            <Fade delay={100}>
-              <div className="skill-column">
-                <h4>Design</h4>
-                <ul>
-                  <li>Adobe Photoshop</li>
-                  <li>Adobe InDesign</li>
-                  <li>Adobe Illustrator</li>
-                  <li>Figma</li>
-                  <li>FigJam</li>
-                </ul>
-              </div>
-            </Fade>
+        <Fade delay={100}>
+          <div className="skill-column">
+            <h4>Design</h4>
+            <ul>
+              <li>Adobe Photoshop</li>
+              <li>Adobe InDesign</li>
+              <li>Adobe Illustrator</li>
+              <li>Figma</li>
+              <li>FigJam</li>
+            </ul>
           </div>
-          <div className="skills-item skills-accessibility">
-            <Fade delay={500}>
-              <div className="skill-column">
-                <h4>Accessibility</h4>
-                <ul>
-                  <li>WCAG 2.2</li>
-                  <li>WAVE</li>
-                  <li>Lighthouse</li>
-                  <li>Axe</li>
-                  <li>VoiceOver</li>
-                </ul>
-              </div>
-            </Fade>
+        </Fade>
+        <Fade delay={300}>
+          <div className="skill-column">
+            <h4>Development</h4>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>Redux</li>
+              <li>Tailwind</li>
+              <li>Framer Motion</li>
+              <li>Node.js</li>
+              <li>Git</li>
+            </ul>
           </div>
-        </div>
-        <div className="skills-item skills-development">
-          <Fade delay={300}>
-            <div className="skill-column">
-              <h4>Development</h4>
-              <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>React</li>
-                <li>Redux</li>
-                <li>Tailwind</li>
-                <li>Framer Motion</li>
-                <li>Node.js</li>
-                <li>Git</li>
-              </ul>
-            </div>
-          </Fade>
-        </div>
+        </Fade>
+        <Fade delay={500}>
+          <div className="skill-column">
+            <h4>Accessibility</h4>
+            <ul>
+              <li>WCAG 2.2</li>
+              <li>WAVE</li>
+              <li>Lighthouse</li>
+              <li>Axe</li>
+              <li>VoiceOver</li>
+            </ul>
+          </div>
+        </Fade>
       </div>
       </Fade>
     </>
