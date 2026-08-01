@@ -272,6 +272,24 @@ h1 {
   }
 }
 
+@keyframes circleGlowMobile {
+  0% {
+    box-shadow: 0 0 1.8rem rgba(195, 90, 219, 0.45);
+  }
+  25% {
+    box-shadow: 0 0 2.6rem rgba(195, 90, 219, 0.62);
+  }
+  50% {
+    box-shadow: 0 0 4rem rgba(195, 90, 219, 0.8), 0 0 6rem rgba(195, 90, 219, 0.35);
+  }
+  75% {
+    box-shadow: 0 0 5rem rgba(195, 90, 219, 0.55);
+  }
+  100% {
+    box-shadow: 0 0 1.8rem rgba(195, 90, 219, 0.45);
+  }
+}
+
 @keyframes circleHover {
   0%,
   100% {
@@ -639,6 +657,7 @@ h4 {
 @media only screen and (max-width: 600px) {
   .home-circle {
     width: 15.5rem;
+    animation: circleGlowMobile 4s ease-in-out infinite;
   }
 
   .home h1 {
