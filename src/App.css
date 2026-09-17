@@ -801,9 +801,9 @@ h4 {
   }
   .me {
     float: none;
-    max-width: 100%;
-    width: 100%;
-    margin: 0 0 1rem 0;
+    max-width: 70%;
+    width: 70%;
+    margin: 0 auto 1rem;
   }
   .container {
     margin-top: 1rem;
