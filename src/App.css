@@ -262,7 +262,7 @@ h1 {
     left: 0;
   }
   to {
-    left: calc(14ch + 0.08em);
+    left: 100%;
   }
 }
 
@@ -906,7 +906,7 @@ h4 {
   .nav-links-active {
     top: 0;
     position: fixed;
-    background-color: #1c1918;
+    background-color: var(--surface-color);
     width: 230px;
     height: 100%;
     display: flex;
