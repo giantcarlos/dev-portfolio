@@ -15,7 +15,7 @@ function BackToTop() {
       onClick={() => window.__lenis ? window.__lenis.scrollTo(0) : window.scrollTo({ top: 0, behavior: 'smooth' })}
       aria-label="Back to top"
     >
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1c1918" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
         <line x1="12" y1="22" x2="12" y2="5" />
         <polyline points="5 12 12 5 19 12" />
       </svg>

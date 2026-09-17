@@ -9,10 +9,18 @@ function Home() {
 
     let latestScrollY = window.scrollY;
     let animationFrameId;
+    const entranceStart = performance.now();
+    const entranceDelay = 1000;
+    const entranceDuration = 3200;
 
     const animateCircle = (time) => {
       const floatOffset = Math.sin(time * 0.0020) * 5;
-      circle.style.transform = `translateY(calc(3rem + ${latestScrollY * 0.5 + floatOffset}px))`;
+      const elapsed = time - entranceStart - entranceDelay;
+      const entranceProgress = Math.min(1, Math.max(0, elapsed / entranceDuration));
+      const easedProgress = 1 - Math.pow(1 - entranceProgress, 3);
+      const scale = 0.08 + easedProgress * 0.92;
+      circle.style.opacity = entranceProgress < 1 ? easedProgress : '';
+      circle.style.transform = `translateY(calc(3rem + ${latestScrollY * 0.5 + floatOffset}px)) scale(${scale})`;
       animationFrameId = requestAnimationFrame(animateCircle);
     };
 

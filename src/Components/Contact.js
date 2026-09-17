@@ -26,7 +26,6 @@ function useReveal(delay = 0) {
 function Contact() {
   const currentYear = new Date().getFullYear();
   const contactRef = useReveal(0);
-  const lineRef = useReveal(200);
   const iconsRef = useReveal(400);
   const copyrightRef = useReveal(600);
 
@@ -40,16 +39,15 @@ function Contact() {
           <h3>email: <a href="mailto:giantainocarlos@gmail.com" className="email-link">giantainocarlos@gmail.com</a></h3>
         </div>
         <div className='contact-footer'>
-          <div ref={lineRef} className='contact-divider-line reveal' aria-hidden='true'></div>
           <div ref={iconsRef} className='icons reveal'>
             <Link to={'https://www.linkedin.com/in/gian-taino-carlos/'} target="_blank">
-              <img className="logo" src={'/linkedinicon.png'} alt="LinkedIn icon."/>
+              <img className="logo linkedin-logo" src="https://api.iconify.design/mdi/linkedin.svg?color=%23faf9f6" alt="LinkedIn icon."/>
             </Link>
             <Link to={'https://github.com/giantcarlos'} target="_blank">
-              <img className="logo2" src={'githubicon.png'} alt="Github icon."/>
+              <img className="logo2 github-logo" src="https://cdn.simpleicons.org/github/FAF9F6" alt="GitHub icon."/>
             </Link>
             <Link to={'https://www.instagram.com/vestments/'} target="_blank">
-              <img className="logo" src={'/instagramicon.png'} alt="Instagram icon."/>
+              <img className="logo" src="https://cdn.simpleicons.org/instagram/FAF9F6" alt="Instagram icon."/>
             </Link>
           </div>
           <p ref={copyrightRef} className='contact-copyright reveal'>
