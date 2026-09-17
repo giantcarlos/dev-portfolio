@@ -906,7 +906,10 @@ h4 {
   .nav-links-active {
     top: 0;
     position: fixed;
-    background-color: var(--surface-color);
+    background-color: rgba(0, 0, 0, 0.78);
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+    border-right: 1px solid rgba(245, 245, 245, 0.2);
     width: 230px;
     height: 100%;
     display: flex;
