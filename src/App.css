@@ -115,14 +115,40 @@ nav {
   z-index: 100;
 }
 
+@keyframes navFadeDown {
+  from {
+    opacity: 0;
+    transform: translateY(-0.8rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes hamburgerFadeDown {
+  from {
+    opacity: 0;
+    transform: translateY(calc(-50% - 0.8rem));
+  }
+  to {
+    opacity: 1;
+    transform: translateY(-50%);
+  }
+}
+
 .site-title {
   margin-top: -.85rem;
   font-size: 2.25rem;
   font-weight: bold;
+  opacity: 0;
+  animation: navFadeDown 0.8s ease forwards 2.25s;
 }
 
 .nav-button {
   margin-right: 1.75rem;
+  opacity: 0;
+  animation: navFadeDown 0.8s ease forwards 2.25s;
 }
 
 nav a,
@@ -233,12 +259,12 @@ h1 {
 .home h1::after {
   content: '';
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 0.42em;
   left: 0;
   width: 0.1em;
-  height: 1.05em;
+  height: 0.88em;
   background: var(--font-color);
+  transform: translateY(-0.43em);
   animation: caretMove 2.5s steps(14, end) 250ms forwards, caretBlinkFade 800ms ease-in-out 2.75s infinite;
 }
 
@@ -487,7 +513,7 @@ h4 {
   margin-left: auto;
   margin-right: auto;
   width: 55%;
-  filter: grayscale(100%) brightness(0.78) contrast(0.92);
+  filter: grayscale(100%) brightness(0.87) contrast(0.92);
 }
 
 .email-link {
@@ -618,7 +644,7 @@ h4 {
   float: right;
   width: 100%;
   object-fit: cover;
-  filter: brightness(0.78) contrast(0.92);
+  filter: brightness(0.87) contrast(0.92);
   transition: 200ms transform ease-in-out;
   margin-bottom: 1rem;
 }
@@ -729,6 +755,7 @@ h4 {
 
 .hamburger {
   display: none;
+  opacity: 0;
 }
 
 @media only screen and (max-width: 600px) {
@@ -899,8 +926,8 @@ h4 {
     position: absolute;
     right: 1rem;
     top: 50%;
-    transform: translateY(-50%);
     z-index: 300;
+    animation: hamburgerFadeDown 0.8s ease forwards 2.25s;
   }
   .nav-links,
   .nav-links-active {
