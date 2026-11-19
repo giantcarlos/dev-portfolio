@@ -46,9 +46,6 @@ function Contact() {
             <Link to={'https://github.com/giantcarlos'} target="_blank">
               <img className="logo2 github-logo" src="https://cdn.simpleicons.org/github/FAF9F6" alt="GitHub icon."/>
             </Link>
-            <Link to={'https://www.instagram.com/vestments/'} target="_blank">
-              <img className="logo" src="https://cdn.simpleicons.org/instagram/FAF9F6" alt="Instagram icon."/>
-            </Link>
           </div>
           <p ref={copyrightRef} className='contact-copyright reveal'>
             © {currentYear} Copyright Gian Taino Carlos.
